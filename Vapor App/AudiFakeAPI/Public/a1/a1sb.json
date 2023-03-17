@@ -1,0 +1,1687 @@
+{
+    "modelId": "a1",
+    "modelName": "A1",
+    "modelYear": 2023,
+    "imageUrl": "https://www.dropbox.com/s/kn1sz7hkbp7v6d4/a1.png?dl=1",
+    "videoData": {
+        "videosUrls": [
+
+        ]
+    },
+    "initialPrice": 514900.00,
+    "versions": [
+        {
+            "versionId": "a1sb",
+            "versionName": "A1 Sportback",
+            "initialPrice": 514900.00,
+            "imageUrl": "https://www.dropbox.com/s/070i08nh0zsk4u6/a1_cover.jpg?dl=1",
+            "subVersions": [
+                {
+                    "subVersionCompleteName": "A1 SB 30 TFSI Urban",
+                    "subVersionShortName": "Urban",
+                    "motorizationData": {
+                        "displacement": "1.0 L (999 cm3)",
+                        "engine": "3 cil. en línea, TFSI",
+                        "power": "116 hp / 5,000 -5,500 rpm",
+                        "torque": "200 Nm / 2,000 - 3,500 rpm",
+                        "traction": "delantera",
+                        "transmission": "S tronic 7 Vel.",
+                        "maximumSpeed": "203 km/hr",
+                        "acceleration0to100KmByHr": "9.4 s",                        
+                        "fuelEfficiency": "15.7/ 22.3/ 18.1 km/l",
+                        "CO2emissions": "149.2 / 105.1/ 129.4 gCO2/km"
+                    },
+                    "dimentionsData": {
+                        "length": "4029 mm",
+                        "width": "1740 mm",
+                        "height": "1433 mm",
+                        "distanceBetweenAxis": "2563 mm",
+                        "emptyWeightWithDriver": 1200,
+                        "trunkCapacity": 335,
+                        "fuelTankCapacity": 40,
+                        "numberOfDoors": 5
+                    },
+                    "assistanceAndSafetySystems": [
+                        {
+                            "name": "Airbags delanteros con interruptor para desconectar el airbag del acompañante",
+                            "isIncluded": true,
+                            "isOptional": false
+                        },
+                        {
+                            "name": "Airbags laterales delanteros con airbag de cabeza",
+                            "isIncluded": true,
+                            "isOptional": false
+                        },
+                        {
+                            "name": "Alarma antirrobo",
+                            "isIncluded": true,
+                            "isOptional": false
+                        },
+                        {
+                            "name": "Anclaje de fijación para asientos de niños para asientos traseros exteriores",
+                            "isIncluded": true,
+                            "isOptional": false
+                        },
+                        {
+                            "name": "Asistente de arranque en pendientes (Audi Hold Assist)",
+                            "isIncluded": true,
+                            "isOptional": false
+                        },
+                        {
+                            "name": "Asistente de estacionamiento trasero (sensores traseros)",
+                            "isIncluded": false,
+                            "isOptional": true
+                        },
+                        {
+                            "name": "Asistente de estacionamiento plus (sensores delanteros y traseros)",
+                            "isIncluded": false,
+                            "isOptional": true
+                        },
+                        {
+                            "name": "Cámara de reversa",
+                            "isIncluded": false,
+                            "isOptional": true
+                        },
+                        {
+                            "name": "Audi Park Assist",
+                            "isIncluded": false,
+                            "isOptional": true
+                        },
+                        {
+                            "name": "Audi Drive Select",
+                            "isIncluded": false,
+                            "isOptional": true
+                        },
+                        {
+                            "name": "Birlos de seguridad",
+                            "isIncluded": true,
+                            "isOptional": false
+                        },
+                        {
+                            "name": "Triángulo de seguridad",
+                            "isIncluded": true,
+                            "isOptional": false
+                        },
+                        {
+                            "name": "Limitador de velocidad ajustable",
+                            "isIncluded": true,
+                            "isOptional": false
+                        },
+                        {
+                            "name": "Cruise control y limitador de velocidad",
+                            "isIncluded": false,
+                            "isOptional": true
+                        },
+                        {
+                            "name": "Dirección asistida electromecánica",
+                            "isIncluded": true,
+                            "isOptional": false
+                        },
+                        {
+                            "name": "Frenos delanteros de disco",
+                            "isIncluded": true,
+                            "isOptional": false
+                        },
+                        {
+                            "name": "Frenos traseros de disco",
+                            "isIncluded": true,
+                            "isOptional": false
+                        },
+                        {
+                            "name": "Indicador de presión de neumáticos",
+                            "isIncluded": true,
+                            "isOptional": false
+                        },
+                        {
+                            "name": "Llanta de refacción de tamaño reducido",
+                            "isIncluded": true,
+                            "isOptional": false
+                        },
+                        {
+                            "name": "Programa electrónico de estabilización (ESP)",
+                            "isIncluded": true,
+                            "isOptional": false
+                        },
+                        {
+                            "name": "Regulación de alcance de las luces",
+                            "isIncluded": true,
+                            "isOptional": false
+                        },
+                        {
+                            "name": "Regulación de alcance de las luces automática, dinámica",
+                            "isIncluded": false,
+                            "isOptional": false
+                        },
+                        {
+                            "name": "Sensor de Luz y lluvia",
+                            "isIncluded": true,
+                            "isOptional": false
+                        },
+                        {
+                            "name": "Sistema de control de tracción ASR",
+                            "isIncluded": true,
+                            "isOptional": false
+                        },
+                        {
+                            "name": "Sistema de frenos antibloqueo ABS",
+                            "isIncluded": true,
+                            "isOptional": false
+                        },
+                        {
+                            "name": "Sistema start / stop con recuperación de energía",
+                            "isIncluded": true,
+                            "isOptional": false
+                        }
+                    ],
+                    "infotainment": [
+                        {
+                            "name": "Audi connect: Infotainment Services",
+                            "isIncluded": false,
+                            "isOptional": true
+                        },
+                        {
+                            "name": "Audi Smartphone interface",
+                            "isIncluded": true,
+                            "isOptional": false
+                        },
+                        {
+                            "name": "Audi music interface",
+                            "isIncluded": true,
+                            "isOptional": false
+                        },
+                        {
+                            "name": "Cuadro de instrumentos digital",
+                            "isIncluded": true,
+                            "isOptional": false
+                        },
+                        {
+                            "name": "Audi Virtual Cockpit",
+                            "isIncluded": false,
+                            "isOptional": true
+                        },
+                        {
+                            "name": "MMI Radio plus con pantalla táctil de 8.8",
+                            "isIncluded": true,
+                            "isOptional": false
+                        },
+                        {
+                            "name": "MMI Navegación plus con pantalla táctil de 10.1",
+                            "isIncluded": false,
+                            "isOptional": true
+                        },
+                        {
+                            "name": "Audi Sound System",
+                            "isIncluded": true,
+                            "isOptional": false
+                        },
+                        {
+                            "name": "SONOS 3D Premium Sound System",
+                            "isIncluded": false,
+                            "isOptional": false
+                        }
+                    ],
+                    "interiorsAndComfort": [
+                        {
+                            "name": "Apoyo lumbar para los asientos delanteros",
+                            "isIncluded": false,
+                            "isOptional": false
+                        },
+                        {
+                            "name": "Asientos delanteros deportivos",
+                            "isIncluded": false,
+                            "isOptional": false
+                        },
+                        {
+                            "name": "Asientos delanteros estándar",
+                            "isIncluded": true,
+                            "isOptional": false
+                        },
+                        {
+                            "name": "Banca trasera de asientos con respaldo abatible 40/60",
+                            "isIncluded": true,
+                            "isOptional": false
+                        },
+                        {
+                            "name": "Cierre centralizado con control remoto",
+                            "isIncluded": true,
+                            "isOptional": false
+                        },
+                        {
+                            "name": "Climatizador manual",
+                            "isIncluded": true,
+                            "isOptional": false
+                        },
+                        {
+                            "name": "Climatizador automático confort",
+                            "isIncluded": false,
+                            "isOptional": true
+                        },
+                        {
+                            "name": "Descansabrazos central delantero",
+                            "isIncluded": false,
+                            "isOptional": true
+                        },
+                        {
+                            "name": "Elevacristales eléctricos con interruptor confort y limitador de fuerza",
+                            "isIncluded": true,
+                            "isOptional": false
+                        },
+                        {
+                            "name": "Iluminación interior LED",
+                            "isIncluded": false,
+                            "isOptional": true
+                        },
+                        {
+                            "name": "Llave confort Keyless Entry",
+                            "isIncluded": false,
+                            "isOptional": true
+                        },
+                        {
+                            "name": "Optica de aluminio en el interior",
+                            "isIncluded": false,
+                            "isOptional": true
+                        },
+                        {
+                            "name": "Paquete portaobjetos",
+                            "isIncluded": false,
+                            "isOptional": true
+                        },
+                        {
+                            "name": "Retrovisor interior antideslumbrante",
+                            "isIncluded": true,
+                            "isOptional": false
+                        },
+                        {
+                            "name": "Revestimiento interior del techo en tela negra",
+                            "isIncluded": false,
+                            "isOptional": true
+                        },
+                        {
+                            "name": "Tapizado de asientos en tela Delta",
+                            "isIncluded": true,
+                            "isOptional": false
+                        },
+                        {
+                            "name": "Tapizado de asientos en tela Derby",
+                            "isIncluded": false,
+                            "isOptional": true
+                        },
+                        {
+                            "name": "Volante multifuncional deportivo en piel de 3 brazos",
+                            "isIncluded": true,
+                            "isOptional": false
+                        },
+                        {
+                            "name": "Volante multifuncional plus deportivo en piel de 3 brazos con paletas de cambio",
+                            "isIncluded": false,
+                            "isOptional": true
+                        }
+                    ],
+                    "exterior": [
+                        {
+                            "name": "Carcasa de retrovisores exteriores en el color de la carrocería",
+                            "isIncluded": true,
+                            "isOptional": false
+                        },
+                        {
+                            "name": "Espejos exteriores con ajuste eléctrico",
+                            "isIncluded": true,
+                            "isOptional": false
+                        },
+                        {
+                            "name": "Faros de halógeno",
+                            "isIncluded": true,
+                            "isOptional": false
+                        },
+                        {
+                            "name": "Faros LED",
+                            "isIncluded": false,
+                            "isOptional": true
+                        },
+                        {
+                            "name": "Luz de marcha diurna",
+                            "isIncluded": true,
+                            "isOptional": false
+                        },
+                        {
+                            "name": "Lavafaros",
+                            "isIncluded": false,
+                            "isOptional": true
+                        },
+                        {
+                            "name": "Limpia parabrisas trasero",
+                            "isIncluded": true,
+                            "isOptional": false
+                        },
+                        {
+                            "name": "Llantas de alta velocidad 185/65 R15 92V xl",
+                            "isIncluded": true,
+                            "isOptional": false
+                        },
+                        {
+                            "name": "Llantas de alta velocidad 195/55 R16 91V xl",
+                            "isIncluded": false,
+                            "isOptional": false
+                        },
+                        {
+                            "name": "Llantas de alta velocidad 215/45 R17 91W xl",
+                            "isIncluded": false,
+                            "isOptional": false
+                        },
+                        {
+                            "name": "Rines de aleación de aluminio en diseño de 5 brazos de 15 pulgadas",
+                            "isIncluded": true,
+                            "isOptional": false
+                        },
+                        {
+                            "name": "Rines de aleación de aluminio en diseño dinámico de 10 radios de 16 pulgadas",
+                            "isIncluded": false,
+                            "isOptional": false
+                        },
+                        {
+                            "name": "Rines de aleación de aluminio en diseño estrella de 5 brazos de 17 pulgadas",
+                            "isIncluded": false,
+                            "isOptional": false
+                        }
+                    ],
+                    "sLinePackage": [
+                        {
+                            "name": "Spoiler de techo S line",
+                            "isIncluded": false,
+                            "isOptional": false
+                        },
+                        {
+                            "name": "Inscripción S line en el exterior",
+                            "isIncluded": false,
+                            "isOptional": false
+                        },
+                        {
+                            "name": "Paquete exterior S line",
+                            "isIncluded": false,
+                            "isOptional": false
+                        },
+                        {
+                            "name": "Paquete interior decorativo S line",
+                            "isIncluded": false,
+                            "isOptional": false
+                        },
+                        {
+                            "name": "Pedales y apoyapiés en acero inoxidable",
+                            "isIncluded": false,
+                            "isOptional": false
+                        },
+                        {
+                            "name": "Rines de aleación de aluminio en diseño de 5 radios dobles de 17 pulgadas",
+                            "isIncluded": false,
+                            "isOptional": false
+                        },
+                        {
+                            "name": "Suspensión Deportiva S line",
+                            "isIncluded": false,
+                            "isOptional": false
+                        },
+                        {
+                            "name": "Tapizado de asientos en combinación alcántara/ piel sintéticas con grabado S Line en el respaldo de los asientos delanteros",
+                            "isIncluded": false,
+                            "isOptional": false
+                        },
+                        {
+                            "name": "Volante multifuncional plus deportivo en piel de 3 brazos y palancas de cambio, achatado en parte inferior",
+                            "isIncluded": false,
+                            "isOptional": false
+                        }
+                    ]
+                },
+                {
+                    "subVersionCompleteName": "A1 SB 30 TFSI Cool",
+                    "subVersionShortName": "Cool",
+                    "motorizationData": {
+                        "displacement": "1.0 L (999 cm3)",
+                        "engine": "3 cil. en línea, TFSI",
+                        "power": "116 hp / 5,000 -5,500 rpm",
+                        "torque": "200 Nm / 2,000 - 3,500 rpm",
+                        "traction": "delantera",
+                        "transmission": "S tronic 7 Vel.",
+                        "maximumSpeed": "203 km/hr",
+                        "acceleration0to100KmByHr": "9.4 s",                        
+                        "fuelEfficiency": "15.7/ 22.3/ 18.1 km/l",
+                        "CO2emissions": "149.2 / 105.1/ 129.4 gCO2/km"
+                    },
+                    "dimentionsData": {
+                        "length": "4029 mm",
+                        "width": "1740 mm",
+                        "height": "1433 mm",
+                        "distanceBetweenAxis": "2563 mm",
+                        "emptyWeightWithDriver": 1200,
+                        "trunkCapacity": 335,
+                        "fuelTankCapacity": 40,
+                        "numberOfDoors": 5
+                    },
+                    "assistanceAndSafetySystems": [
+                        {
+                            "name": "Airbags delanteros con interruptor para desconectar el airbag del acompañante",
+                            "isIncluded": true,
+                            "isOptional": false
+                        },
+                        {
+                            "name": "Airbags laterales delanteros con airbag de cabeza",
+                            "isIncluded": true,
+                            "isOptional": false
+                        },
+                        {
+                            "name": "Alarma antirrobo",
+                            "isIncluded": true,
+                            "isOptional": false
+                        },
+                        {
+                            "name": "Anclaje de fijación para asientos de niños para asientos traseros exteriores",
+                            "isIncluded": true,
+                            "isOptional": false
+                        },
+                        {
+                            "name": "Asistente de arranque en pendientes (Audi Hold Assist)",
+                            "isIncluded": true,
+                            "isOptional": false
+                        },
+                        {
+                            "name": "Asistente de estacionamiento trasero (sensores traseros)",
+                            "isIncluded": false,
+                            "isOptional": true
+                        },
+                        {
+                            "name": "Asistente de estacionamiento plus (sensores delanteros y traseros)",
+                            "isIncluded": false,
+                            "isOptional": true
+                        },
+                        {
+                            "name": "Cámara de reversa",
+                            "isIncluded": false,
+                            "isOptional": true
+                        },
+                        {
+                            "name": "Audi Park Assist",
+                            "isIncluded": false,
+                            "isOptional": true
+                        },
+                        {
+                            "name": "Audi Drive Select",
+                            "isIncluded": false,
+                            "isOptional": true
+                        },
+                        {
+                            "name": "Birlos de seguridad",
+                            "isIncluded": true,
+                            "isOptional": false
+                        },
+                        {
+                            "name": "Triángulo de seguridad",
+                            "isIncluded": true,
+                            "isOptional": false
+                        },
+                        {
+                            "name": "Limitador de velocidad ajustable",
+                            "isIncluded": false,
+                            "isOptional": false
+                        },
+                        {
+                            "name": "Cruise control y limitador de velocidad",
+                            "isIncluded": true,
+                            "isOptional": false
+                        },
+                        {
+                            "name": "Dirección asistida electromecánica",
+                            "isIncluded": true,
+                            "isOptional": false
+                        },
+                        {
+                            "name": "Frenos delanteros de disco",
+                            "isIncluded": true,
+                            "isOptional": false
+                        },
+                        {
+                            "name": "Frenos traseros de disco",
+                            "isIncluded": true,
+                            "isOptional": false
+                        },
+                        {
+                            "name": "Indicador de presión de neumáticos",
+                            "isIncluded": true,
+                            "isOptional": false
+                        },
+                        {
+                            "name": "Llanta de refacción de tamaño reducido",
+                            "isIncluded": true,
+                            "isOptional": false
+                        },
+                        {
+                            "name": "Programa electrónico de estabilización (ESP)",
+                            "isIncluded": true,
+                            "isOptional": false
+                        },
+                        {
+                            "name": "Regulación de alcance de las luces",
+                            "isIncluded": false,
+                            "isOptional": false
+                        },
+                        {
+                            "name": "Regulación de alcance de las luces automática, dinámica",
+                            "isIncluded": false,
+                            "isOptional": false
+                        },
+                        {
+                            "name": "Sensor de Luz y lluvia",
+                            "isIncluded": true,
+                            "isOptional": false
+                        },
+                        {
+                            "name": "Sistema de control de tracción ASR",
+                            "isIncluded": true,
+                            "isOptional": false
+                        },
+                        {
+                            "name": "Sistema de frenos antibloqueo ABS",
+                            "isIncluded": true,
+                            "isOptional": false
+                        },
+                        {
+                            "name": "Sistema start / stop con recuperación de energía",
+                            "isIncluded": true,
+                            "isOptional": false
+                        }
+                    ],
+                    "infotainment": [
+                        {
+                            "name": "Audi connect: Infotainment Services",
+                            "isIncluded": false,
+                            "isOptional": true
+                        },
+                        {
+                            "name": "Audi Smartphone interface",
+                            "isIncluded": true,
+                            "isOptional": false
+                        },
+                        {
+                            "name": "Audi music interface",
+                            "isIncluded": true,
+                            "isOptional": false
+                        },
+                        {
+                            "name": "Cuadro de instrumentos digital",
+                            "isIncluded": true,
+                            "isOptional": false
+                        },
+                        {
+                            "name": "Audi Virtual Cockpit",
+                            "isIncluded": false,
+                            "isOptional": true
+                        },
+                        {
+                            "name": "MMI Radio plus con pantalla táctil de 8.8",
+                            "isIncluded": true,
+                            "isOptional": false
+                        },
+                        {
+                            "name": "MMI Navegación plus con pantalla táctil de 10.1",
+                            "isIncluded": false,
+                            "isOptional": true
+                        },
+                        {
+                            "name": "Audi Sound System",
+                            "isIncluded": true,
+                            "isOptional": false
+                        },
+                        {
+                            "name": "SONOS 3D Premium Sound System",
+                            "isIncluded": false,
+                            "isOptional": true
+                        }
+                    ],
+                    "interiorsAndComfort": [
+                        {
+                            "name": "Apoyo lumbar para los asientos delanteros",
+                            "isIncluded": false,
+                            "isOptional": false
+                        },
+                        {
+                            "name": "Asientos delanteros deportivos",
+                            "isIncluded": false,
+                            "isOptional": false
+                        },
+                        {
+                            "name": "Asientos delanteros estándar",
+                            "isIncluded": true,
+                            "isOptional": false
+                        },
+                        {
+                            "name": "Banca trasera de asientos con respaldo abatible 40/60",
+                            "isIncluded": true,
+                            "isOptional": false
+                        },
+                        {
+                            "name": "Cierre centralizado con control remoto",
+                            "isIncluded": true,
+                            "isOptional": false
+                        },
+                        {
+                            "name": "Climatizador manual",
+                            "isIncluded": false,
+                            "isOptional": false
+                        },
+                        {
+                            "name": "Climatizador automático confort",
+                            "isIncluded": true,
+                            "isOptional": false
+                        },
+                        {
+                            "name": "Descansabrazos central delantero",
+                            "isIncluded": true,
+                            "isOptional": false
+                        },
+                        {
+                            "name": "Elevacristales eléctricos con interruptor confort y limitador de fuerza",
+                            "isIncluded": true,
+                            "isOptional": false
+                        },
+                        {
+                            "name": "Iluminación interior LED",
+                            "isIncluded": false,
+                            "isOptional": true
+                        },
+                        {
+                            "name": "Llave confort Keyless Entry",
+                            "isIncluded": true,
+                            "isOptional": false
+                        },
+                        {
+                            "name": "Optica de aluminio en el interior",
+                            "isIncluded": false,
+                            "isOptional": true
+                        },
+                        {
+                            "name": "Paquete portaobjetos",
+                            "isIncluded": true,
+                            "isOptional": false
+                        },
+                        {
+                            "name": "Retrovisor interior antideslumbrante",
+                            "isIncluded": true,
+                            "isOptional": false
+                        },
+                        {
+                            "name": "Revestimiento interior del techo en tela negra",
+                            "isIncluded": false,
+                            "isOptional": true
+                        },
+                        {
+                            "name": "Tapizado de asientos en tela Delta",
+                            "isIncluded": true,
+                            "isOptional": false
+                        },
+                        {
+                            "name": "Tapizado de asientos en tela Derby",
+                            "isIncluded": false,
+                            "isOptional": true
+                        },
+                        {
+                            "name": "Volante multifuncional deportivo en piel de 3 brazos",
+                            "isIncluded": true,
+                            "isOptional": false
+                        },
+                        {
+                            "name": "Volante multifuncional plus deportivo en piel de 3 brazos con paletas de cambio",
+                            "isIncluded": false,
+                            "isOptional": true
+                        }
+                    ],
+                    "exterior": [
+                        {
+                            "name": "Carcasa de retrovisores exteriores en el color de la carrocería",
+                            "isIncluded": true,
+                            "isOptional": false
+                        },
+                        {
+                            "name": "Espejos exteriores con ajuste eléctrico",
+                            "isIncluded": true,
+                            "isOptional": false
+                        },
+                        {
+                            "name": "Faros de halógeno",
+                            "isIncluded": true,
+                            "isOptional": false
+                        },
+                        {
+                            "name": "Faros LED",
+                            "isIncluded": false,
+                            "isOptional": true
+                        },
+                        {
+                            "name": "Luz de marcha diurna",
+                            "isIncluded": true,
+                            "isOptional": false
+                        },
+                        {
+                            "name": "Lavafaros",
+                            "isIncluded": false,
+                            "isOptional": true
+                        },
+                        {
+                            "name": "Limpia parabrisas trasero",
+                            "isIncluded": true,
+                            "isOptional": false
+                        },
+                        {
+                            "name": "Llantas de alta velocidad 185/65 R15 92V xl",
+                            "isIncluded": false,
+                            "isOptional": false
+                        },
+                        {
+                            "name": "Llantas de alta velocidad 195/55 R16 91V xl",
+                            "isIncluded": true,
+                            "isOptional": false
+                        },
+                        {
+                            "name": "Llantas de alta velocidad 215/45 R17 91W xl",
+                            "isIncluded": false,
+                            "isOptional": false
+                        },
+                        {
+                            "name": "Rines de aleación de aluminio en diseño de 5 brazos de 15 pulgadas",
+                            "isIncluded": false,
+                            "isOptional": false
+                        },
+                        {
+                            "name": "Rines de aleación de aluminio en diseño dinámico de 10 radios de 16 pulgadas",
+                            "isIncluded": true,
+                            "isOptional": false
+                        },
+                        {
+                            "name": "Rines de aleación de aluminio en diseño estrella de 5 brazos de 17 pulgadas",
+                            "isIncluded": false,
+                            "isOptional": false
+                        }
+                    ],
+                    "sLinePackage": [
+                        {
+                            "name": "Spoiler de techo S line",
+                            "isIncluded": false,
+                            "isOptional": false
+                        },
+                        {
+                            "name": "Inscripción S line en el exterior",
+                            "isIncluded": false,
+                            "isOptional": false
+                        },
+                        {
+                            "name": "Paquete exterior S line",
+                            "isIncluded": false,
+                            "isOptional": false
+                        },
+                        {
+                            "name": "Paquete interior decorativo S line",
+                            "isIncluded": false,
+                            "isOptional": false
+                        },
+                        {
+                            "name": "Pedales y apoyapiés en acero inoxidable",
+                            "isIncluded": false,
+                            "isOptional": false
+                        },
+                        {
+                            "name": "Rines de aleación de aluminio en diseño de 5 radios dobles de 17 pulgadas",
+                            "isIncluded": false,
+                            "isOptional": false
+                        },
+                        {
+                            "name": "Suspensión Deportiva S line",
+                            "isIncluded": false,
+                            "isOptional": false
+                        },
+                        {
+                            "name": "Tapizado de asientos en combinación alcántara/ piel sintéticas con grabado S Line en el respaldo de los asientos delanteros",
+                            "isIncluded": false,
+                            "isOptional": false
+                        },
+                        {
+                            "name": "Volante multifuncional plus deportivo en piel de 3 brazos y palancas de cambio, achatado en parte inferior",
+                            "isIncluded": false,
+                            "isOptional": false
+                        }
+                    ]
+                },
+                {
+                    "subVersionCompleteName": "A1 SB 30 TFSI Ego",
+                    "subVersionShortName": "Ego",
+                    "motorizationData": {
+                        "displacement": "1.5 L (1,498 cm3)",
+                        "engine": "4 cil. en línea, TFSI",
+                        "power": "150 hp / 5,000- 6,000 rpm",
+                        "torque": "250 Nm / 1,500 -3,500 rpm",
+                        "traction": "delantera",
+                        "transmission": "S tronic 7 Vel.",
+                        "maximumSpeed": "222 km/ hr",
+                        "acceleration0to100KmByHr": "7.7 s",                        
+                        "fuelEfficiency": "14.8/ 20.6/ 16.9 km/l",
+                        "CO2emissions": "159.1/ 114.0/ 138.8 gCO2/km"
+                    },
+                    "dimentionsData": {
+                        "length": "4029 mm",
+                        "width": "1740 mm",
+                        "height": "1433 mm",
+                        "distanceBetweenAxis": "2563 mm",
+                        "emptyWeightWithDriver": 1240,
+                        "trunkCapacity": 335,
+                        "fuelTankCapacity": 40,
+                        "numberOfDoors": 5
+                    },
+                    "assistanceAndSafetySystems": [
+                        {
+                            "name": "Airbags delanteros con interruptor para desconectar el airbag del acompañante",
+                            "isIncluded": true,
+                            "isOptional": false
+                        },
+                        {
+                            "name": "Airbags laterales delanteros con airbag de cabeza",
+                            "isIncluded": true,
+                            "isOptional": false
+                        },
+                        {
+                            "name": "Alarma antirrobo",
+                            "isIncluded": true,
+                            "isOptional": false
+                        },
+                        {
+                            "name": "Anclaje de fijación para asientos de niños para asientos traseros exteriores",
+                            "isIncluded": true,
+                            "isOptional": false
+                        },
+                        {
+                            "name": "Asistente de arranque en pendientes (Audi Hold Assist)",
+                            "isIncluded": true,
+                            "isOptional": false
+                        },
+                        {
+                            "name": "Asistente de estacionamiento trasero (sensores traseros)",
+                            "isIncluded": true,
+                            "isOptional": false
+                        },
+                        {
+                            "name": "Asistente de estacionamiento plus (sensores delanteros y traseros)",
+                            "isIncluded": false,
+                            "isOptional": true
+                        },
+                        {
+                            "name": "Cámara de reversa",
+                            "isIncluded": false,
+                            "isOptional": true
+                        },
+                        {
+                            "name": "Audi Park Assist",
+                            "isIncluded": false,
+                            "isOptional": true
+                        },
+                        {
+                            "name": "Audi Drive Select",
+                            "isIncluded": true,
+                            "isOptional": false
+                        },
+                        {
+                            "name": "Birlos de seguridad",
+                            "isIncluded": true,
+                            "isOptional": false
+                        },
+                        {
+                            "name": "Triángulo de seguridad",
+                            "isIncluded": true,
+                            "isOptional": false
+                        },
+                        {
+                            "name": "Limitador de velocidad ajustable",
+                            "isIncluded": false,
+                            "isOptional": false
+                        },
+                        {
+                            "name": "Cruise control y limitador de velocidad",
+                            "isIncluded": true,
+                            "isOptional": false
+                        },
+                        {
+                            "name": "Dirección asistida electromecánica",
+                            "isIncluded": true,
+                            "isOptional": false
+                        },
+                        {
+                            "name": "Frenos delanteros de disco",
+                            "isIncluded": true,
+                            "isOptional": false
+                        },
+                        {
+                            "name": "Frenos traseros de disco",
+                            "isIncluded": true,
+                            "isOptional": false
+                        },
+                        {
+                            "name": "Indicador de presión de neumáticos",
+                            "isIncluded": true,
+                            "isOptional": false
+                        },
+                        {
+                            "name": "Llanta de refacción de tamaño reducido",
+                            "isIncluded": true,
+                            "isOptional": false
+                        },
+                        {
+                            "name": "Programa electrónico de estabilización (ESP)",
+                            "isIncluded": true,
+                            "isOptional": false
+                        },
+                        {
+                            "name": "Regulación de alcance de las luces",
+                            "isIncluded": false,
+                            "isOptional": false
+                        },
+                        {
+                            "name": "Regulación de alcance de las luces automática, dinámica",
+                            "isIncluded": true,
+                            "isOptional": false
+                        },
+                        {
+                            "name": "Sensor de Luz y lluvia",
+                            "isIncluded": true,
+                            "isOptional": false
+                        },
+                        {
+                            "name": "Sistema de control de tracción ASR",
+                            "isIncluded": true,
+                            "isOptional": false
+                        },
+                        {
+                            "name": "Sistema de frenos antibloqueo ABS",
+                            "isIncluded": true,
+                            "isOptional": false
+                        },
+                        {
+                            "name": "Sistema start / stop con recuperación de energía",
+                            "isIncluded": true,
+                            "isOptional": false
+                        }
+                    ],
+                    "infotainment": [
+                        {
+                            "name": "Audi connect: Infotainment Services",
+                            "isIncluded": false,
+                            "isOptional": true
+                        },
+                        {
+                            "name": "Audi Smartphone interface",
+                            "isIncluded": true,
+                            "isOptional": false
+                        },
+                        {
+                            "name": "Audi music interface",
+                            "isIncluded": true,
+                            "isOptional": false
+                        },
+                        {
+                            "name": "Cuadro de instrumentos digital",
+                            "isIncluded": true,
+                            "isOptional": false
+                        },
+                        {
+                            "name": "Audi Virtual Cockpit",
+                            "isIncluded": false,
+                            "isOptional": true
+                        },
+                        {
+                            "name": "MMI Radio plus con pantalla táctil de 8.8",
+                            "isIncluded": true,
+                            "isOptional": false
+                        },
+                        {
+                            "name": "MMI Navegación plus con pantalla táctil de 10.1",
+                            "isIncluded": false,
+                            "isOptional": true
+                        },
+                        {
+                            "name": "Audi Sound System",
+                            "isIncluded": true,
+                            "isOptional": false
+                        },
+                        {
+                            "name": "SONOS 3D Premium Sound System",
+                            "isIncluded": false,
+                            "isOptional": true
+                        }
+                    ],
+                    "interiorsAndComfort": [
+                        {
+                            "name": "Apoyo lumbar para los asientos delanteros",
+                            "isIncluded": true,
+                            "isOptional": false
+                        },
+                        {
+                            "name": "Asientos delanteros deportivos",
+                            "isIncluded": true,
+                            "isOptional": false
+                        },
+                        {
+                            "name": "Asientos delanteros estándar",
+                            "isIncluded": false,
+                            "isOptional": false
+                        },
+                        {
+                            "name": "Banca trasera de asientos con respaldo abatible 40/60",
+                            "isIncluded": true,
+                            "isOptional": false
+                        },
+                        {
+                            "name": "Cierre centralizado con control remoto",
+                            "isIncluded": true,
+                            "isOptional": false
+                        },
+                        {
+                            "name": "Climatizador manual",
+                            "isIncluded": false,
+                            "isOptional": false
+                        },
+                        {
+                            "name": "Climatizador automático confort",
+                            "isIncluded": true,
+                            "isOptional": false
+                        },
+                        {
+                            "name": "Descansabrazos central delantero",
+                            "isIncluded": true,
+                            "isOptional": false
+                        },
+                        {
+                            "name": "Elevacristales eléctricos con interruptor confort y limitador de fuerza",
+                            "isIncluded": true,
+                            "isOptional": false
+                        },
+                        {
+                            "name": "Iluminación interior LED",
+                            "isIncluded": true,
+                            "isOptional": false
+                        },
+                        {
+                            "name": "Llave confort Keyless Entry",
+                            "isIncluded": true,
+                            "isOptional": false
+                        },
+                        {
+                            "name": "Optica de aluminio en el interior",
+                            "isIncluded": false,
+                            "isOptional": true
+                        },
+                        {
+                            "name": "Paquete portaobjetos",
+                            "isIncluded": true,
+                            "isOptional": false
+                        },
+                        {
+                            "name": "Retrovisor interior antideslumbrante",
+                            "isIncluded": true,
+                            "isOptional": false
+                        },
+                        {
+                            "name": "Revestimiento interior del techo en tela negra",
+                            "isIncluded": false,
+                            "isOptional": true
+                        },
+                        {
+                            "name": "Tapizado de asientos en tela Delta",
+                            "isIncluded": false,
+                            "isOptional": false
+                        },
+                        {
+                            "name": "Tapizado de asientos en tela Derby",
+                            "isIncluded": true,
+                            "isOptional": false
+                        },
+                        {
+                            "name": "Volante multifuncional deportivo en piel de 3 brazos",
+                            "isIncluded": false,
+                            "isOptional": false
+                        },
+                        {
+                            "name": "Volante multifuncional plus deportivo en piel de 3 brazos con paletas de cambio",
+                            "isIncluded": true,
+                            "isOptional": false
+                        }
+                    ],
+                    "exterior": [
+                        {
+                            "name": "Carcasa de retrovisores exteriores en el color de la carrocería",
+                            "isIncluded": true,
+                            "isOptional": false
+                        },
+                        {
+                            "name": "Espejos exteriores con ajuste eléctrico",
+                            "isIncluded": true,
+                            "isOptional": false
+                        },
+                        {
+                            "name": "Faros de halógeno",
+                            "isIncluded": false,
+                            "isOptional": false
+                        },
+                        {
+                            "name": "Faros LED",
+                            "isIncluded": true,
+                            "isOptional": false
+                        },
+                        {
+                            "name": "Luz de marcha diurna",
+                            "isIncluded": true,
+                            "isOptional": false
+                        },
+                        {
+                            "name": "Lavafaros",
+                            "isIncluded": false,
+                            "isOptional": true
+                        },
+                        {
+                            "name": "Limpia parabrisas trasero",
+                            "isIncluded": true,
+                            "isOptional": false
+                        },
+                        {
+                            "name": "Llantas de alta velocidad 185/65 R15 92V xl",
+                            "isIncluded": false,
+                            "isOptional": false
+                        },
+                        {
+                            "name": "Llantas de alta velocidad 195/55 R16 91V xl",
+                            "isIncluded": false,
+                            "isOptional": false
+                        },
+                        {
+                            "name": "Llantas de alta velocidad 215/45 R17 91W xl",
+                            "isIncluded": true,
+                            "isOptional": false
+                        },
+                        {
+                            "name": "Rines de aleación de aluminio en diseño de 5 brazos de 15 pulgadas",
+                            "isIncluded": false,
+                            "isOptional": false
+                        },
+                        {
+                            "name": "Rines de aleación de aluminio en diseño dinámico de 10 radios de 16 pulgadas",
+                            "isIncluded": false,
+                            "isOptional": false
+                        },
+                        {
+                            "name": "Rines de aleación de aluminio en diseño estrella de 5 brazos de 17 pulgadas",
+                            "isIncluded": true,
+                            "isOptional": false
+                        }
+                    ],
+                    "sLinePackage": [
+                        {
+                            "name": "Spoiler de techo S line",
+                            "isIncluded": false,
+                            "isOptional": false
+                        },
+                        {
+                            "name": "Inscripción S line en el exterior",
+                            "isIncluded": false,
+                            "isOptional": false
+                        },
+                        {
+                            "name": "Paquete exterior S line",
+                            "isIncluded": false,
+                            "isOptional": false
+                        },
+                        {
+                            "name": "Paquete interior decorativo S line",
+                            "isIncluded": false,
+                            "isOptional": false
+                        },
+                        {
+                            "name": "Pedales y apoyapiés en acero inoxidable",
+                            "isIncluded": false,
+                            "isOptional": false
+                        },
+                        {
+                            "name": "Rines de aleación de aluminio en diseño de 5 radios dobles de 17 pulgadas",
+                            "isIncluded": false,
+                            "isOptional": false
+                        },
+                        {
+                            "name": "Suspensión Deportiva S line",
+                            "isIncluded": false,
+                            "isOptional": false
+                        },
+                        {
+                            "name": "Tapizado de asientos en combinación alcántara/ piel sintéticas con grabado S Line en el respaldo de los asientos delanteros",
+                            "isIncluded": false,
+                            "isOptional": false
+                        },
+                        {
+                            "name": "Volante multifuncional plus deportivo en piel de 3 brazos y palancas de cambio, achatado en parte inferior",
+                            "isIncluded": false,
+                            "isOptional": false
+                        }
+                    ]
+                },
+                {
+                    "subVersionCompleteName": "A1 SB 30 TFSI S line",
+                    "subVersionShortName": "S line",
+                    "motorizationData": {
+                        "displacement": "2.0 L (1,984 cm3)",
+                        "engine": "4 cil. en línea, TFSI",
+                        "power": "200 hp / 4,400-6,000 rpm",
+                        "torque": "320 Nm/1,500 - 4,400 rpm",
+                        "traction": "delantera",
+                        "transmission": "S tronic 6 Vel.",
+                        "maximumSpeed": "235km/hr",
+                        "acceleration0to100KmByHr": "6.5 s",                        
+                        "fuelEfficiency": "13.7/ 19.4/ 15.8 km/l",
+                        "CO2emissions": "171.2/ 121.2/ 148.7 gCO2/km"
+                    },
+                    "dimentionsData": {
+                        "length": "4029 mm",
+                        "width": "1740 mm",
+                        "height": "1433 mm",
+                        "distanceBetweenAxis": "2563 mm",
+                        "emptyWeightWithDriver": 1335,
+                        "trunkCapacity": 335,
+                        "fuelTankCapacity": 40,
+                        "numberOfDoors": 5
+                    },
+                    "assistanceAndSafetySystems": [
+                        {
+                            "name": "Airbags delanteros con interruptor para desconectar el airbag del acompañante",
+                            "isIncluded": true,
+                            "isOptional": false
+                        },
+                        {
+                            "name": "Airbags laterales delanteros con airbag de cabeza",
+                            "isIncluded": true,
+                            "isOptional": false
+                        },
+                        {
+                            "name": "Alarma antirrobo",
+                            "isIncluded": true,
+                            "isOptional": false
+                        },
+                        {
+                            "name": "Anclaje de fijación para asientos de niños para asientos traseros exteriores",
+                            "isIncluded": true,
+                            "isOptional": false
+                        },
+                        {
+                            "name": "Asistente de arranque en pendientes (Audi Hold Assist)",
+                            "isIncluded": true,
+                            "isOptional": false
+                        },
+                        {
+                            "name": "Asistente de estacionamiento trasero (sensores traseros)",
+                            "isIncluded": false,
+                            "isOptional": false
+                        },
+                        {
+                            "name": "Asistente de estacionamiento plus (sensores delanteros y traseros)",
+                            "isIncluded": true,
+                            "isOptional": false
+                        },
+                        {
+                            "name": "Cámara de reversa",
+                            "isIncluded": true,
+                            "isOptional": false
+                        },
+                        {
+                            "name": "Audi Park Assist",
+                            "isIncluded": true,
+                            "isOptional": false
+                        },
+                        {
+                            "name": "Audi Drive Select",
+                            "isIncluded": true,
+                            "isOptional": false
+                        },
+                        {
+                            "name": "Birlos de seguridad",
+                            "isIncluded": true,
+                            "isOptional": false
+                        },
+                        {
+                            "name": "Triángulo de seguridad",
+                            "isIncluded": true,
+                            "isOptional": false
+                        },
+                        {
+                            "name": "Limitador de velocidad ajustable",
+                            "isIncluded": false,
+                            "isOptional": false
+                        },
+                        {
+                            "name": "Cruise control y limitador de velocidad",
+                            "isIncluded": true,
+                            "isOptional": false
+                        },
+                        {
+                            "name": "Dirección asistida electromecánica",
+                            "isIncluded": true,
+                            "isOptional": false
+                        },
+                        {
+                            "name": "Frenos delanteros de disco",
+                            "isIncluded": true,
+                            "isOptional": false
+                        },
+                        {
+                            "name": "Frenos traseros de disco",
+                            "isIncluded": true,
+                            "isOptional": false
+                        },
+                        {
+                            "name": "Indicador de presión de neumáticos",
+                            "isIncluded": true,
+                            "isOptional": false
+                        },
+                        {
+                            "name": "Llanta de refacción de tamaño reducido",
+                            "isIncluded": true,
+                            "isOptional": false
+                        },
+                        {
+                            "name": "Programa electrónico de estabilización (ESP)",
+                            "isIncluded": true,
+                            "isOptional": false
+                        },
+                        {
+                            "name": "Regulación de alcance de las luces",
+                            "isIncluded": false,
+                            "isOptional": false
+                        },
+                        {
+                            "name": "Regulación de alcance de las luces automática, dinámica",
+                            "isIncluded": true,
+                            "isOptional": false
+                        },
+                        {
+                            "name": "Sensor de Luz y lluvia",
+                            "isIncluded": true,
+                            "isOptional": false
+                        },
+                        {
+                            "name": "Sistema de control de tracción ASR",
+                            "isIncluded": true,
+                            "isOptional": false
+                        },
+                        {
+                            "name": "Sistema de frenos antibloqueo ABS",
+                            "isIncluded": true,
+                            "isOptional": false
+                        },
+                        {
+                            "name": "Sistema start / stop con recuperación de energía",
+                            "isIncluded": true,
+                            "isOptional": false
+                        }
+                    ],
+                    "infotainment": [
+                        {
+                            "name": "Audi connect: Infotainment Services",
+                            "isIncluded": false,
+                            "isOptional": true
+                        },
+                        {
+                            "name": "Audi Smartphone interface",
+                            "isIncluded": true,
+                            "isOptional": false
+                        },
+                        {
+                            "name": "Audi music interface",
+                            "isIncluded": true,
+                            "isOptional": false
+                        },
+                        {
+                            "name": "Cuadro de instrumentos digital",
+                            "isIncluded": true,
+                            "isOptional": false
+                        },
+                        {
+                            "name": "Audi Virtual Cockpit",
+                            "isIncluded": false,
+                            "isOptional": true
+                        },
+                        {
+                            "name": "MMI Radio plus con pantalla táctil de 8.8",
+                            "isIncluded": true,
+                            "isOptional": false
+                        },
+                        {
+                            "name": "MMI Navegación plus con pantalla táctil de 10.1",
+                            "isIncluded": false,
+                            "isOptional": true
+                        },
+                        {
+                            "name": "Audi Sound System",
+                            "isIncluded": false,
+                            "isOptional": false
+                        },
+                        {
+                            "name": "SONOS 3D Premium Sound System",
+                            "isIncluded": true,
+                            "isOptional": false
+                        }
+                    ],
+                    "interiorsAndComfort": [
+                        {
+                            "name": "Apoyo lumbar para los asientos delanteros",
+                            "isIncluded": true,
+                            "isOptional": false
+                        },
+                        {
+                            "name": "Asientos delanteros deportivos",
+                            "isIncluded": true,
+                            "isOptional": false
+                        },
+                        {
+                            "name": "Asientos delanteros estándar",
+                            "isIncluded": false,
+                            "isOptional": false
+                        },
+                        {
+                            "name": "Banca trasera de asientos con respaldo abatible 40/60",
+                            "isIncluded": true,
+                            "isOptional": false
+                        },
+                        {
+                            "name": "Cierre centralizado con control remoto",
+                            "isIncluded": true,
+                            "isOptional": false
+                        },
+                        {
+                            "name": "Climatizador manual",
+                            "isIncluded": false,
+                            "isOptional": false
+                        },
+                        {
+                            "name": "Climatizador automático confort",
+                            "isIncluded": true,
+                            "isOptional": false
+                        },
+                        {
+                            "name": "Descansabrazos central delantero",
+                            "isIncluded": true,
+                            "isOptional": false
+                        },
+                        {
+                            "name": "Elevacristales eléctricos con interruptor confort y limitador de fuerza",
+                            "isIncluded": true,
+                            "isOptional": false
+                        },
+                        {
+                            "name": "Iluminación interior LED",
+                            "isIncluded": true,
+                            "isOptional": false
+                        },
+                        {
+                            "name": "Llave confort Keyless Entry",
+                            "isIncluded": true,
+                            "isOptional": false
+                        },
+                        {
+                            "name": "Optica de aluminio en el interior",
+                            "isIncluded": true,
+                            "isOptional": false
+                        },
+                        {
+                            "name": "Paquete portaobjetos",
+                            "isIncluded": true,
+                            "isOptional": false
+                        },
+                        {
+                            "name": "Retrovisor interior antideslumbrante",
+                            "isIncluded": true,
+                            "isOptional": false
+                        },
+                        {
+                            "name": "Revestimiento interior del techo en tela negra",
+                            "isIncluded": true,
+                            "isOptional": false
+                        },
+                        {
+                            "name": "Tapizado de asientos en tela Delta",
+                            "isIncluded": false,
+                            "isOptional": false
+                        },
+                        {
+                            "name": "Tapizado de asientos en tela Derby",
+                            "isIncluded": true,
+                            "isOptional": false
+                        },
+                        {
+                            "name": "Volante multifuncional deportivo en piel de 3 brazos",
+                            "isIncluded": false,
+                            "isOptional": false
+                        },
+                        {
+                            "name": "Volante multifuncional plus deportivo en piel de 3 brazos con paletas de cambio",
+                            "isIncluded": true,
+                            "isOptional": false
+                        }
+                    ],
+                    "exterior": [
+                        {
+                            "name": "Carcasa de retrovisores exteriores en el color de la carrocería",
+                            "isIncluded": true,
+                            "isOptional": false
+                        },
+                        {
+                            "name": "Espejos exteriores con ajuste eléctrico",
+                            "isIncluded": true,
+                            "isOptional": false
+                        },
+                        {
+                            "name": "Faros de halógeno",
+                            "isIncluded": false,
+                            "isOptional": false
+                        },
+                        {
+                            "name": "Faros LED",
+                            "isIncluded": true,
+                            "isOptional": false
+                        },
+                        {
+                            "name": "Luz de marcha diurna",
+                            "isIncluded": true,
+                            "isOptional": false
+                        },
+                        {
+                            "name": "Lavafaros",
+                            "isIncluded": false,
+                            "isOptional": true
+                        },
+                        {
+                            "name": "Limpia parabrisas trasero",
+                            "isIncluded": true,
+                            "isOptional": false
+                        },
+                        {
+                            "name": "Llantas de alta velocidad 185/65 R15 92V xl",
+                            "isIncluded": false,
+                            "isOptional": false
+                        },
+                        {
+                            "name": "Llantas de alta velocidad 195/55 R16 91V xl",
+                            "isIncluded": false,
+                            "isOptional": false
+                        },
+                        {
+                            "name": "Llantas de alta velocidad 215/45 R17 91W xl",
+                            "isIncluded": true,
+                            "isOptional": false
+                        },
+                        {
+                            "name": "Rines de aleación de aluminio en diseño de 5 brazos de 15 pulgadas",
+                            "isIncluded": false,
+                            "isOptional": false
+                        },
+                        {
+                            "name": "Rines de aleación de aluminio en diseño dinámico de 10 radios de 16 pulgadas",
+                            "isIncluded": false,
+                            "isOptional": false
+                        },
+                        {
+                            "name": "Rines de aleación de aluminio en diseño estrella de 5 brazos de 17 pulgadas",
+                            "isIncluded": true,
+                            "isOptional": false
+                        }
+                    ],
+                    "sLinePackage": [
+                        {
+                            "name": "Spoiler de techo S line",
+                            "isIncluded": true,
+                            "isOptional": false
+                        },
+                        {
+                            "name": "Inscripción S line en el exterior",
+                            "isIncluded": true,
+                            "isOptional": false
+                        },
+                        {
+                            "name": "Paquete exterior S line",
+                            "isIncluded": true,
+                            "isOptional": false
+                        },
+                        {
+                            "name": "Paquete interior decorativo S line",
+                            "isIncluded": true,
+                            "isOptional": false
+                        },
+                        {
+                            "name": "Pedales y apoyapiés en acero inoxidable",
+                            "isIncluded": true,
+                            "isOptional": false
+                        },
+                        {
+                            "name": "Rines de aleación de aluminio en diseño de 5 radios dobles de 17 pulgadas",
+                            "isIncluded": true,
+                            "isOptional": false
+                        },
+                        {
+                            "name": "Suspensión Deportiva S line",
+                            "isIncluded": true,
+                            "isOptional": false
+                        },
+                        {
+                            "name": "Tapizado de asientos en combinación alcántara/ piel sintéticas con grabado S Line en el respaldo de los asientos delanteros",
+                            "isIncluded": true,
+                            "isOptional": false
+                        },
+                        {
+                            "name": "Volante multifuncional plus deportivo en piel de 3 brazos y palancas de cambio, achatado en parte inferior",
+                            "isIncluded": true,
+                            "isOptional": false
+                        }
+                    ]
+                }
+            ],
+            "stock": 10
+        }
+    ]
+}

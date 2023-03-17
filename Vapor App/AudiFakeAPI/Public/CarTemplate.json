@@ -1,0 +1,86 @@
+{
+    "modelId": "",
+    "modelName": "",
+    "modelYear": 0,
+    "imageUrl": "https://www.dropbox.com/s/kn1sz7hkbp7v6d4/a1.png?dl=1",
+    "videoData": {
+        "videosUrls": [
+
+        ]
+    },
+    "initialPrice": 0.00,
+    "versions": [
+        {
+            "versionId": "",
+            "versionName": "",
+            "initialPrice": 0.00,
+            "imageUrl": "https://www.dropbox.com/s/070i08nh0zsk4u6/a1_cover.jpg?dl=1",
+            "subVersions": [
+                {
+                    "subVersionCompleteName": "",
+                    "subVersionShortName": "",
+                    "price": 0.00,
+                    "stock": 0,
+                    "motorizationData": {
+                        "displacement": "",
+                        "engine": "",
+                        "power": "",
+                        "torque": "",
+                        "traction": "",
+                        "transmission": "",
+                        "maximumSpeed": "",
+                        "acceleration0to100KmByHr": "",                        
+                        "fuelEfficiency": "",
+                        "CO2emissions": ""
+                    },
+                    "dimentionsData": {
+                        "length": " mm",
+                        "width": " mm",
+                        "height": " mm",
+                        "distanceBetweenAxis": " mm",
+                        "emptyWeightWithDriver": 0,
+                        "trunkCapacity": 0,
+                        "fuelTankCapacity": 0,
+                        "numberOfDoors": 0
+                    },
+                    "assistanceAndSafetySystems": [
+                        {
+                            "name": "",
+                            "isIncluded": true,
+                            "isOptional": false
+                        }
+                    ],
+                    "infotainment": [
+                        {
+                            "name": "",
+                            "isIncluded": true,
+                            "isOptional": false
+                        }
+                    ],
+                    "interiorsAndComfort": [
+                        {
+                            "name": "",
+                            "isIncluded": true,
+                            "isOptional": false
+                        }
+                    ],
+                    "exterior": [
+                        {
+                            "name": "",
+                            "isIncluded": true,
+                            "isOptional": false
+                        }
+                    ],
+                    "sLinePackage": [
+                        {
+                            "name": "",
+                            "isIncluded": true,
+                            "isOptional": false
+                        }
+                    ]
+                }
+            ],
+            "stock": 0
+        }
+    ]
+}
