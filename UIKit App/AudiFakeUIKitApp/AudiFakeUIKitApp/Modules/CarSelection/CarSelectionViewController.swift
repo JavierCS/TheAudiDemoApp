@@ -5,7 +5,6 @@ class CarSelectionViewController: UIViewController {
     @IBOutlet weak var carsCollection: UICollectionView!
     
     // MARK: - Logic Vars
-    let carsImageCache = NSCache<NSString, UIImage>()
     var cars: [AudiCarModel] = []
     
     // MARK: - Initialization Code
@@ -43,22 +42,6 @@ class CarSelectionViewController: UIViewController {
         task.resume()
     }
     
-    func fetchCarImage(url: URL, completion: @escaping (UIImage?) -> Void) {
-        let request = URLRequest(url: url)
-        URLSession.shared.dataTask(with: request) { [weak self] (data, urlResponse, error) in
-            guard let self = self,
-                  let data = data,
-                  let image = UIImage(data: data) else {
-                completion(nil)
-                return
-            }
-            self.carsImageCache.setObject(image, forKey: url.absoluteString as NSString)
-            DispatchQueue.main.async {
-                completion(image)
-            }
-        }.resume()
-    }
-    
     func printCars(_ cars: [AudiCarModel]) {
         self.cars = cars
         carsCollection.reloadData()
@@ -74,13 +57,9 @@ extension CarSelectionViewController: UICollectionViewDataSource {
     func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
         guard let cell = collectionView.dequeueReusableCell(withReuseIdentifier: String(describing: CarCollectionViewCell.self), for: indexPath) as? CarCollectionViewCell,
               let imageUrl = cars[indexPath.row].getImageUrl() else { return UICollectionViewCell() }
-        if let carImage = carsImageCache.object(forKey: imageUrl.absoluteString as NSString) {
-            cell.drawCarImage(carImage, animated: false)
-        } else {
-            fetchCarImage(url: imageUrl) { image in
-                guard let image = image else { return }
-                cell.drawCarImage(image)
-            }
+        AudiImageCacheManager.shared.fetchImage(locatedAt: imageUrl) { image, origin in
+            guard let image = image else { return }
+            cell.drawCarImage(image, animated: origin == .network)
         }
         return cell
     }
@@ -91,5 +70,11 @@ extension CarSelectionViewController: UICollectionViewDelegateFlowLayout {
     func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, sizeForItemAt indexPath: IndexPath) -> CGSize {
         let heightWidthConstant = collectionView.frame.width / 2
         return CGSize(width: heightWidthConstant, height: heightWidthConstant)
+    }
+    
+    func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
+        guard let selectedCarVersions = cars[indexPath.row].versions else { return }
+        let versionSelection = VersionSelectionViewController.fromNib(using: selectedCarVersions)
+        present(versionSelection, animated: true)
     }
 }

@@ -10,6 +10,12 @@
 		7FAF665529C4107C0066EC4E /* UIImageExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FAF665429C4107C0066EC4E /* UIImageExtension.swift */; };
 		7FAF665829C413300066EC4E /* AudiCarModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FAF665729C413300066EC4E /* AudiCarModel.swift */; };
 		7FAF665A29C413930066EC4E /* AudiCarVersion.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FAF665929C413930066EC4E /* AudiCarVersion.swift */; };
+		B21ED21C29C4E68500D28052 /* VersionSelectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B21ED21A29C4E68500D28052 /* VersionSelectionViewController.swift */; };
+		B21ED21D29C4E68500D28052 /* VersionSelectionViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B21ED21B29C4E68500D28052 /* VersionSelectionViewController.xib */; };
+		B21ED22129C4E98000D28052 /* MasterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B21ED22029C4E98000D28052 /* MasterViewController.swift */; };
+		B21ED22429C4EB2000D28052 /* AudiImageCacheManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = B21ED22329C4EB2000D28052 /* AudiImageCacheManager.swift */; };
+		B21ED22829C4F8FC00D28052 /* CarVersionTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B21ED22629C4F8FC00D28052 /* CarVersionTableViewCell.swift */; };
+		B21ED22929C4F8FC00D28052 /* CarVersionTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = B21ED22729C4F8FC00D28052 /* CarVersionTableViewCell.xib */; };
 		B260944029C3D86B006F4AAA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B260943F29C3D86B006F4AAA /* AppDelegate.swift */; };
 		B260944229C3D86B006F4AAA /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B260944129C3D86B006F4AAA /* SceneDelegate.swift */; };
 		B260944929C3D86D006F4AAA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B260944829C3D86D006F4AAA /* Assets.xcassets */; };
@@ -24,6 +30,12 @@
 		7FAF665429C4107C0066EC4E /* UIImageExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIImageExtension.swift; sourceTree = "<group>"; };
 		7FAF665729C413300066EC4E /* AudiCarModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AudiCarModel.swift; sourceTree = "<group>"; };
 		7FAF665929C413930066EC4E /* AudiCarVersion.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AudiCarVersion.swift; sourceTree = "<group>"; };
+		B21ED21A29C4E68500D28052 /* VersionSelectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VersionSelectionViewController.swift; sourceTree = "<group>"; };
+		B21ED21B29C4E68500D28052 /* VersionSelectionViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = VersionSelectionViewController.xib; sourceTree = "<group>"; };
+		B21ED22029C4E98000D28052 /* MasterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MasterViewController.swift; sourceTree = "<group>"; };
+		B21ED22329C4EB2000D28052 /* AudiImageCacheManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AudiImageCacheManager.swift; sourceTree = "<group>"; };
+		B21ED22629C4F8FC00D28052 /* CarVersionTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarVersionTableViewCell.swift; sourceTree = "<group>"; };
+		B21ED22729C4F8FC00D28052 /* CarVersionTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CarVersionTableViewCell.xib; sourceTree = "<group>"; };
 		B260943C29C3D86B006F4AAA /* AudiFakeUIKitApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AudiFakeUIKitApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B260943F29C3D86B006F4AAA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B260944129C3D86B006F4AAA /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -64,6 +76,49 @@
 			path = Models;
 			sourceTree = "<group>";
 		};
+		B21ED21929C4E66200D28052 /* VersionSelection */ = {
+			isa = PBXGroup;
+			children = (
+				B21ED22529C4F8D600D28052 /* CarVersionTableViewCell */,
+				B21ED21A29C4E68500D28052 /* VersionSelectionViewController.swift */,
+				B21ED21B29C4E68500D28052 /* VersionSelectionViewController.xib */,
+			);
+			path = VersionSelection;
+			sourceTree = "<group>";
+		};
+		B21ED21E29C4E94A00D28052 /* Generics */ = {
+			isa = PBXGroup;
+			children = (
+				B21ED21F29C4E96100D28052 /* MasterViewController */,
+			);
+			path = Generics;
+			sourceTree = "<group>";
+		};
+		B21ED21F29C4E96100D28052 /* MasterViewController */ = {
+			isa = PBXGroup;
+			children = (
+				B21ED22029C4E98000D28052 /* MasterViewController.swift */,
+			);
+			path = MasterViewController;
+			sourceTree = "<group>";
+		};
+		B21ED22229C4EAFB00D28052 /* Managers */ = {
+			isa = PBXGroup;
+			children = (
+				B21ED22329C4EB2000D28052 /* AudiImageCacheManager.swift */,
+			);
+			path = Managers;
+			sourceTree = "<group>";
+		};
+		B21ED22529C4F8D600D28052 /* CarVersionTableViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				B21ED22629C4F8FC00D28052 /* CarVersionTableViewCell.swift */,
+				B21ED22729C4F8FC00D28052 /* CarVersionTableViewCell.xib */,
+			);
+			path = CarVersionTableViewCell;
+			sourceTree = "<group>";
+		};
 		B260943329C3D86B006F4AAA = {
 			isa = PBXGroup;
 			children = (
@@ -89,6 +144,8 @@
 				B260944A29C3D86D006F4AAA /* LaunchScreen.storyboard */,
 				B260944829C3D86D006F4AAA /* Assets.xcassets */,
 				7FAF665329C410650066EC4E /* Extensions */,
+				B21ED21E29C4E94A00D28052 /* Generics */,
+				B21ED22229C4EAFB00D28052 /* Managers */,
 				7FAF665629C413120066EC4E /* Models */,
 				B260945329C3D8F9006F4AAA /* Modules */,
 			);
@@ -98,6 +155,7 @@
 		B260945329C3D8F9006F4AAA /* Modules */ = {
 			isa = PBXGroup;
 			children = (
+				B21ED21929C4E66200D28052 /* VersionSelection */,
 				B260945429C3DAFA006F4AAA /* CarSelection */,
 			);
 			path = Modules;
@@ -181,9 +239,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				B260944C29C3D86D006F4AAA /* LaunchScreen.storyboard in Resources */,
+				B21ED21D29C4E68500D28052 /* VersionSelectionViewController.xib in Resources */,
 				B260945829C3DB20006F4AAA /* CarSelectionViewController.xib in Resources */,
 				B260944929C3D86D006F4AAA /* Assets.xcassets in Resources */,
 				B260945D29C3DF3D006F4AAA /* CarCollectionViewCell.xib in Resources */,
+				B21ED22929C4F8FC00D28052 /* CarVersionTableViewCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -196,8 +256,12 @@
 			files = (
 				B260945729C3DB20006F4AAA /* CarSelectionViewController.swift in Sources */,
 				B260944029C3D86B006F4AAA /* AppDelegate.swift in Sources */,
+				B21ED21C29C4E68500D28052 /* VersionSelectionViewController.swift in Sources */,
 				7FAF665A29C413930066EC4E /* AudiCarVersion.swift in Sources */,
 				B260944229C3D86B006F4AAA /* SceneDelegate.swift in Sources */,
+				B21ED22829C4F8FC00D28052 /* CarVersionTableViewCell.swift in Sources */,
+				B21ED22429C4EB2000D28052 /* AudiImageCacheManager.swift in Sources */,
+				B21ED22129C4E98000D28052 /* MasterViewController.swift in Sources */,
 				7FAF665529C4107C0066EC4E /* UIImageExtension.swift in Sources */,
 				B260945C29C3DF3D006F4AAA /* CarCollectionViewCell.swift in Sources */,
 				7FAF665829C413300066EC4E /* AudiCarModel.swift in Sources */,
