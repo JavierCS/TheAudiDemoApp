@@ -1,0 +1,385 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B260944029C3D86B006F4AAA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B260943F29C3D86B006F4AAA /* AppDelegate.swift */; };
+		B260944229C3D86B006F4AAA /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B260944129C3D86B006F4AAA /* SceneDelegate.swift */; };
+		B260944929C3D86D006F4AAA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B260944829C3D86D006F4AAA /* Assets.xcassets */; };
+		B260944C29C3D86D006F4AAA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B260944A29C3D86D006F4AAA /* LaunchScreen.storyboard */; };
+		B260945729C3DB20006F4AAA /* CarSelectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B260945529C3DB20006F4AAA /* CarSelectionViewController.swift */; };
+		B260945829C3DB20006F4AAA /* CarSelectionViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B260945629C3DB20006F4AAA /* CarSelectionViewController.xib */; };
+		B260945C29C3DF3D006F4AAA /* CarCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B260945A29C3DF3D006F4AAA /* CarCollectionViewCell.swift */; };
+		B260945D29C3DF3D006F4AAA /* CarCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = B260945B29C3DF3D006F4AAA /* CarCollectionViewCell.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		B260943C29C3D86B006F4AAA /* AudiFakeUIKitApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AudiFakeUIKitApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B260943F29C3D86B006F4AAA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		B260944129C3D86B006F4AAA /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		B260944829C3D86D006F4AAA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B260944B29C3D86D006F4AAA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B260944D29C3D86D006F4AAA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B260945529C3DB20006F4AAA /* CarSelectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarSelectionViewController.swift; sourceTree = "<group>"; };
+		B260945629C3DB20006F4AAA /* CarSelectionViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CarSelectionViewController.xib; sourceTree = "<group>"; };
+		B260945A29C3DF3D006F4AAA /* CarCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarCollectionViewCell.swift; sourceTree = "<group>"; };
+		B260945B29C3DF3D006F4AAA /* CarCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CarCollectionViewCell.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B260943929C3D86B006F4AAA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B260943329C3D86B006F4AAA = {
+			isa = PBXGroup;
+			children = (
+				B260943E29C3D86B006F4AAA /* AudiFakeUIKitApp */,
+				B260943D29C3D86B006F4AAA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B260943D29C3D86B006F4AAA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B260943C29C3D86B006F4AAA /* AudiFakeUIKitApp.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B260943E29C3D86B006F4AAA /* AudiFakeUIKitApp */ = {
+			isa = PBXGroup;
+			children = (
+				B260945329C3D8F9006F4AAA /* Modules */,
+				B260943F29C3D86B006F4AAA /* AppDelegate.swift */,
+				B260944129C3D86B006F4AAA /* SceneDelegate.swift */,
+				B260944829C3D86D006F4AAA /* Assets.xcassets */,
+				B260944A29C3D86D006F4AAA /* LaunchScreen.storyboard */,
+				B260944D29C3D86D006F4AAA /* Info.plist */,
+			);
+			path = AudiFakeUIKitApp;
+			sourceTree = "<group>";
+		};
+		B260945329C3D8F9006F4AAA /* Modules */ = {
+			isa = PBXGroup;
+			children = (
+				B260945429C3DAFA006F4AAA /* CarSelection */,
+			);
+			path = Modules;
+			sourceTree = "<group>";
+		};
+		B260945429C3DAFA006F4AAA /* CarSelection */ = {
+			isa = PBXGroup;
+			children = (
+				B260945929C3DEF0006F4AAA /* CarCollectionViewCell */,
+				B260945529C3DB20006F4AAA /* CarSelectionViewController.swift */,
+				B260945629C3DB20006F4AAA /* CarSelectionViewController.xib */,
+			);
+			path = CarSelection;
+			sourceTree = "<group>";
+		};
+		B260945929C3DEF0006F4AAA /* CarCollectionViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				B260945A29C3DF3D006F4AAA /* CarCollectionViewCell.swift */,
+				B260945B29C3DF3D006F4AAA /* CarCollectionViewCell.xib */,
+			);
+			path = CarCollectionViewCell;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B260943B29C3D86B006F4AAA /* AudiFakeUIKitApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B260945029C3D86D006F4AAA /* Build configuration list for PBXNativeTarget "AudiFakeUIKitApp" */;
+			buildPhases = (
+				B260943829C3D86B006F4AAA /* Sources */,
+				B260943929C3D86B006F4AAA /* Frameworks */,
+				B260943A29C3D86B006F4AAA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AudiFakeUIKitApp;
+			productName = AudiFakeUIKitApp;
+			productReference = B260943C29C3D86B006F4AAA /* AudiFakeUIKitApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B260943429C3D86B006F4AAA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					B260943B29C3D86B006F4AAA = {
+						CreatedOnToolsVersion = 14.2;
+					};
+				};
+			};
+			buildConfigurationList = B260943729C3D86B006F4AAA /* Build configuration list for PBXProject "AudiFakeUIKitApp" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B260943329C3D86B006F4AAA;
+			productRefGroup = B260943D29C3D86B006F4AAA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B260943B29C3D86B006F4AAA /* AudiFakeUIKitApp */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B260943A29C3D86B006F4AAA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B260944C29C3D86D006F4AAA /* LaunchScreen.storyboard in Resources */,
+				B260945829C3DB20006F4AAA /* CarSelectionViewController.xib in Resources */,
+				B260944929C3D86D006F4AAA /* Assets.xcassets in Resources */,
+				B260945D29C3DF3D006F4AAA /* CarCollectionViewCell.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B260943829C3D86B006F4AAA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B260945729C3DB20006F4AAA /* CarSelectionViewController.swift in Sources */,
+				B260944029C3D86B006F4AAA /* AppDelegate.swift in Sources */,
+				B260944229C3D86B006F4AAA /* SceneDelegate.swift in Sources */,
+				B260945C29C3DF3D006F4AAA /* CarCollectionViewCell.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		B260944A29C3D86D006F4AAA /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B260944B29C3D86D006F4AAA /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B260944E29C3D86D006F4AAA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		B260944F29C3D86D006F4AAA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B260945129C3D86D006F4AAA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = WSP8L686Z2;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = AudiFakeUIKitApp/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.demo.AudiFakeUIKitApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B260945229C3D86D006F4AAA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = WSP8L686Z2;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = AudiFakeUIKitApp/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.demo.AudiFakeUIKitApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B260943729C3D86B006F4AAA /* Build configuration list for PBXProject "AudiFakeUIKitApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B260944E29C3D86D006F4AAA /* Debug */,
+				B260944F29C3D86D006F4AAA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B260945029C3D86D006F4AAA /* Build configuration list for PBXNativeTarget "AudiFakeUIKitApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B260945129C3D86D006F4AAA /* Debug */,
+				B260945229C3D86D006F4AAA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B260943429C3D86B006F4AAA /* Project object */;
+}
