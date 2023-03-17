@@ -16,7 +16,7 @@
                 <rect key="frame" x="0.0" y="0.0" width="308" height="305"/>
                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                 <subviews>
-                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="g7o-x1-md3">
+                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="AudiLogo" translatesAutoresizingMaskIntoConstraints="NO" id="g7o-x1-md3">
                         <rect key="frame" x="0.0" y="0.0" width="308" height="305"/>
                     </imageView>
                 </subviews>
@@ -35,4 +35,7 @@
             <point key="canvasLocation" x="172.51908396946564" y="109.50704225352113"/>
         </collectionViewCell>
     </objects>
+    <resources>
+        <image name="AudiLogo" width="100" height="61.666667938232422"/>
+    </resources>
 </document>

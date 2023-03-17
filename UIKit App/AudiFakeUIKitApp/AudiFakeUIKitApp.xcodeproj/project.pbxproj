@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7FAF665529C4107C0066EC4E /* UIImageExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FAF665429C4107C0066EC4E /* UIImageExtension.swift */; };
+		7FAF665829C413300066EC4E /* AudiCarModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FAF665729C413300066EC4E /* AudiCarModel.swift */; };
+		7FAF665A29C413930066EC4E /* AudiCarVersion.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FAF665929C413930066EC4E /* AudiCarVersion.swift */; };
 		B260944029C3D86B006F4AAA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B260943F29C3D86B006F4AAA /* AppDelegate.swift */; };
 		B260944229C3D86B006F4AAA /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B260944129C3D86B006F4AAA /* SceneDelegate.swift */; };
 		B260944929C3D86D006F4AAA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B260944829C3D86D006F4AAA /* Assets.xcassets */; };
@@ -18,6 +21,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		7FAF665429C4107C0066EC4E /* UIImageExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIImageExtension.swift; sourceTree = "<group>"; };
+		7FAF665729C413300066EC4E /* AudiCarModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AudiCarModel.swift; sourceTree = "<group>"; };
+		7FAF665929C413930066EC4E /* AudiCarVersion.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AudiCarVersion.swift; sourceTree = "<group>"; };
 		B260943C29C3D86B006F4AAA /* AudiFakeUIKitApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AudiFakeUIKitApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B260943F29C3D86B006F4AAA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B260944129C3D86B006F4AAA /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -41,6 +47,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		7FAF665329C410650066EC4E /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				7FAF665429C4107C0066EC4E /* UIImageExtension.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		7FAF665629C413120066EC4E /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				7FAF665729C413300066EC4E /* AudiCarModel.swift */,
+				7FAF665929C413930066EC4E /* AudiCarVersion.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
 		B260943329C3D86B006F4AAA = {
 			isa = PBXGroup;
 			children = (
@@ -60,12 +83,14 @@
 		B260943E29C3D86B006F4AAA /* AudiFakeUIKitApp */ = {
 			isa = PBXGroup;
 			children = (
-				B260945329C3D8F9006F4AAA /* Modules */,
+				B260944D29C3D86D006F4AAA /* Info.plist */,
 				B260943F29C3D86B006F4AAA /* AppDelegate.swift */,
 				B260944129C3D86B006F4AAA /* SceneDelegate.swift */,
-				B260944829C3D86D006F4AAA /* Assets.xcassets */,
 				B260944A29C3D86D006F4AAA /* LaunchScreen.storyboard */,
-				B260944D29C3D86D006F4AAA /* Info.plist */,
+				B260944829C3D86D006F4AAA /* Assets.xcassets */,
+				7FAF665329C410650066EC4E /* Extensions */,
+				7FAF665629C413120066EC4E /* Models */,
+				B260945329C3D8F9006F4AAA /* Modules */,
 			);
 			path = AudiFakeUIKitApp;
 			sourceTree = "<group>";
@@ -171,8 +196,11 @@
 			files = (
 				B260945729C3DB20006F4AAA /* CarSelectionViewController.swift in Sources */,
 				B260944029C3D86B006F4AAA /* AppDelegate.swift in Sources */,
+				7FAF665A29C413930066EC4E /* AudiCarVersion.swift in Sources */,
 				B260944229C3D86B006F4AAA /* SceneDelegate.swift in Sources */,
+				7FAF665529C4107C0066EC4E /* UIImageExtension.swift in Sources */,
 				B260945C29C3DF3D006F4AAA /* CarCollectionViewCell.swift in Sources */,
+				7FAF665829C413300066EC4E /* AudiCarModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
