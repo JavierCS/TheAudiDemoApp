@@ -5,7 +5,8 @@ class CarSelectionViewController: UIViewController {
     @IBOutlet weak var carsCollection: UICollectionView!
     
     // MARK: - Logic Vars
-    var cars: [AudiCarEntity] = []
+    let carsImageCache = NSCache<NSString, UIImage>()
+    var cars: [AudiCarModel] = []
     
     // MARK: - Initialization Code
     static func fromNib() -> CarSelectionViewController {
@@ -34,7 +35,7 @@ class CarSelectionViewController: UIViewController {
         let task = URLSession.shared.dataTask(with: urlRequest) { [weak self] (data, urlResponse, error) in
             guard let self = self,
                   let data = data,
-                  let response = try? JSONDecoder().decode([AudiCarEntity].self, from: data) else { return }
+                  let response = try? JSONDecoder().decode([AudiCarModel].self, from: data) else { return }
             DispatchQueue.main.async {
                 self.printCars(response)
             }
@@ -42,7 +43,23 @@ class CarSelectionViewController: UIViewController {
         task.resume()
     }
     
-    func printCars(_ cars: [AudiCarEntity]) {
+    func fetchCarImage(url: URL, completion: @escaping (UIImage?) -> Void) {
+        let request = URLRequest(url: url)
+        URLSession.shared.dataTask(with: request) { [weak self] (data, urlResponse, error) in
+            guard let self = self,
+                  let data = data,
+                  let image = UIImage(data: data) else {
+                completion(nil)
+                return
+            }
+            self.carsImageCache.setObject(image, forKey: url.absoluteString as NSString)
+            DispatchQueue.main.async {
+                completion(image)
+            }
+        }.resume()
+    }
+    
+    func printCars(_ cars: [AudiCarModel]) {
         self.cars = cars
         carsCollection.reloadData()
     }
@@ -55,8 +72,16 @@ extension CarSelectionViewController: UICollectionViewDataSource {
     }
     
     func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
-        guard let cell = collectionView.dequeueReusableCell(withReuseIdentifier: String(describing: CarCollectionViewCell.self), for: indexPath) as? CarCollectionViewCell else { return UICollectionViewCell() }
-        cell.drawCar(cars[indexPath.row])
+        guard let cell = collectionView.dequeueReusableCell(withReuseIdentifier: String(describing: CarCollectionViewCell.self), for: indexPath) as? CarCollectionViewCell,
+              let imageUrl = cars[indexPath.row].getImageUrl() else { return UICollectionViewCell() }
+        if let carImage = carsImageCache.object(forKey: imageUrl.absoluteString as NSString) {
+            cell.drawCarImage(carImage, animated: false)
+        } else {
+            fetchCarImage(url: imageUrl) { image in
+                guard let image = image else { return }
+                cell.drawCarImage(image)
+            }
+        }
         return cell
     }
 }
@@ -67,32 +92,4 @@ extension CarSelectionViewController: UICollectionViewDelegateFlowLayout {
         let heightWidthConstant = collectionView.frame.width / 2
         return CGSize(width: heightWidthConstant, height: heightWidthConstant)
     }
-}
-
-class AudiCarEntity: Decodable {
-    var modelId: String?
-    var modelName: String?
-    var modelYear: Int?
-    var imageUrl: String?
-    var initialPrice: Double?
-    var versions: [AudiCarVersion]?
-}
-
-extension AudiCarEntity: CarCollectionViewCellProtocol {
-    func getImageUrl() -> URL? {
-        guard let url = imageUrl else { return nil }
-        return URL(string: url)
-    }
-}
-
-struct AudiCarVersion: Decodable {
-    var versionId: String?
-    var versionName: String?
-    var initialPrice: Double?
-    var imageUrl: String?
-    var stock: Int?
-}
-
-struct JCSUEndpoint {
-    
 }
