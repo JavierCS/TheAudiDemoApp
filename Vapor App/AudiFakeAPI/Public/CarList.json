@@ -28,6 +28,7 @@
                 "versionName": "A3 Sedán",
                 "initialPrice": 643900.00,
                 "coverImageUrl": "https://www.dropbox.com/s/nf93dcgs7xzl7tn/a3_cover.jpg?dl=1",
+                "frontImageUrl": "https://www.dropbox.com/s/tcyfoauvhxpryci/a3_front.jpg?dl=1",
                 "stock": 50
             },
             {
@@ -35,6 +36,7 @@
                 "versionName": "S3 Sedán",
                 "initialPrice": 1004900.00,
                 "coverImageUrl": "https://www.dropbox.com/s/gj9wqmye2919mil/s3_cover.jpg?dl=1",
+                "frontImageUrl": "https://www.dropbox.com/s/s33a3utdshkzjck/s3_front.jpg?dl=1",
                 "stock": 7
             },
             {
@@ -42,6 +44,7 @@
                 "versionName": "RS3 Sedán",
                 "initialPrice": 1469900.00,
                 "coverImageUrl": "https://www.dropbox.com/s/0317trbt0l6du97/rs3_cover.jpg?dl=1",
+                "frontImageUrl": "https://www.dropbox.com/s/53cy27sqvr5lnrm/rs3_front.jpg?dl=1",
                 "stock": 0
             }
         ]
@@ -58,6 +61,7 @@
                 "versionName": "A4 Sedán",
                 "initialPrice": 809900.00,
                 "coverImageUrl": "https://www.dropbox.com/s/iny5xll52glspmb/a4_cover.jpg?dl=1",
+                "frontImageUrl": "https://www.dropbox.com/s/uqb0zsi41f2ikvj/a4_front.jpg?dl=1",
                 "stock": 50
             },
             {
