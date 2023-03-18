@@ -10,7 +10,6 @@
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="VersionSelectionViewController" customModule="AudiFakeUIKitApp" customModuleProvider="target">
             <connections>
-                <outlet property="coverImageView" destination="WIo-nG-pCZ" id="saW-0v-Y6K"/>
                 <outlet property="modelVersionsTableView" destination="lzO-Cg-uEY" id="o3L-nD-3Al"/>
                 <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
             </connections>
@@ -34,23 +33,16 @@
                 <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="bZb-Mr-RCY">
                     <rect key="frame" x="0.0" y="59" width="393" height="759"/>
                     <subviews>
-                        <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="WIo-nG-pCZ">
-                            <rect key="frame" x="0.0" y="0.0" width="393" height="254"/>
-                        </imageView>
                         <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="-1" estimatedSectionHeaderHeight="-1" sectionFooterHeight="-1" estimatedSectionFooterHeight="-1" translatesAutoresizingMaskIntoConstraints="NO" id="lzO-Cg-uEY">
-                            <rect key="frame" x="0.0" y="254" width="393" height="505"/>
+                            <rect key="frame" x="0.0" y="0.0" width="393" height="759"/>
                             <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         </tableView>
                     </subviews>
                     <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                     <constraints>
-                        <constraint firstItem="WIo-nG-pCZ" firstAttribute="leading" secondItem="bZb-Mr-RCY" secondAttribute="leading" id="4an-ie-rKT"/>
                         <constraint firstItem="lzO-Cg-uEY" firstAttribute="leading" secondItem="bZb-Mr-RCY" secondAttribute="leading" id="I4N-YY-s4b"/>
-                        <constraint firstItem="lzO-Cg-uEY" firstAttribute="top" secondItem="WIo-nG-pCZ" secondAttribute="bottom" id="KF0-P8-vbf"/>
+                        <constraint firstItem="lzO-Cg-uEY" firstAttribute="top" secondItem="bZb-Mr-RCY" secondAttribute="top" id="Mf8-CV-ZfG"/>
                         <constraint firstAttribute="trailing" secondItem="lzO-Cg-uEY" secondAttribute="trailing" id="RSP-rR-rDx"/>
-                        <constraint firstItem="WIo-nG-pCZ" firstAttribute="height" secondItem="bZb-Mr-RCY" secondAttribute="height" multiplier="0.334651" id="Y29-Zg-4qh"/>
-                        <constraint firstItem="WIo-nG-pCZ" firstAttribute="top" secondItem="bZb-Mr-RCY" secondAttribute="top" id="i83-ua-OFR"/>
-                        <constraint firstAttribute="trailing" secondItem="WIo-nG-pCZ" secondAttribute="trailing" id="tZQ-YB-bp0"/>
                         <constraint firstAttribute="bottom" secondItem="lzO-Cg-uEY" secondAttribute="bottom" id="udN-iB-YzS"/>
                     </constraints>
                 </view>

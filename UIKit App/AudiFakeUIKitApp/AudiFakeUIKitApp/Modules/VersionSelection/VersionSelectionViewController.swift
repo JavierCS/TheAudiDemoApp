@@ -22,6 +22,7 @@ class VersionSelectionViewController: UIViewController {
     
     // MARK: - Configuration Management
     private func initialConfiguration() {
+        title = "Elige una versión"
         modelVersionsTableView.register(UINib(nibName: String(describing: CarVersionTableViewCell.self), bundle: Bundle(for: type(of: self))), forCellReuseIdentifier: String(describing: CarVersionTableViewCell.self))
         modelVersionsTableView.separatorStyle = .none
         modelVersionsTableView.dataSource = self

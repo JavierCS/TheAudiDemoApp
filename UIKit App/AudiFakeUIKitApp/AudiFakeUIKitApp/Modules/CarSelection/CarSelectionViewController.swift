@@ -75,6 +75,6 @@ extension CarSelectionViewController: UICollectionViewDelegateFlowLayout {
     func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
         guard let selectedCarVersions = cars[indexPath.row].versions else { return }
         let versionSelection = VersionSelectionViewController.fromNib(using: selectedCarVersions)
-        present(versionSelection, animated: true)
+        show(versionSelection, sender: nil)
     }
 }
