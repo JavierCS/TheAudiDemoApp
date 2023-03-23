@@ -14,6 +14,11 @@ class CarCollectionViewCell: UICollectionViewCell {
     }
     
     // MARK: - SetUp
+    func drawDefaultImage(_ image: UIImage) {
+        carImageView.contentMode = .center
+        carImageView.setImage(image, animated: false)
+    }
+    
     func drawCarImage(_ image: UIImage, animated: Bool = true) {
         carImageView.contentMode = .scaleAspectFill
         carImageView.setImage(image, animated: animated)

@@ -16,6 +16,7 @@
 		B21ED22429C4EB2000D28052 /* AudiImageCacheManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = B21ED22329C4EB2000D28052 /* AudiImageCacheManager.swift */; };
 		B21ED22829C4F8FC00D28052 /* CarVersionTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B21ED22629C4F8FC00D28052 /* CarVersionTableViewCell.swift */; };
 		B21ED22929C4F8FC00D28052 /* CarVersionTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = B21ED22729C4F8FC00D28052 /* CarVersionTableViewCell.xib */; };
+		B23E6D6B29CCCCE3003F55AA /* DoubleExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = B23E6D6A29CCCCE3003F55AA /* DoubleExtension.swift */; };
 		B260944029C3D86B006F4AAA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B260943F29C3D86B006F4AAA /* AppDelegate.swift */; };
 		B260944229C3D86B006F4AAA /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B260944129C3D86B006F4AAA /* SceneDelegate.swift */; };
 		B260944929C3D86D006F4AAA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B260944829C3D86D006F4AAA /* Assets.xcassets */; };
@@ -36,6 +37,7 @@
 		B21ED22329C4EB2000D28052 /* AudiImageCacheManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AudiImageCacheManager.swift; sourceTree = "<group>"; };
 		B21ED22629C4F8FC00D28052 /* CarVersionTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarVersionTableViewCell.swift; sourceTree = "<group>"; };
 		B21ED22729C4F8FC00D28052 /* CarVersionTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CarVersionTableViewCell.xib; sourceTree = "<group>"; };
+		B23E6D6A29CCCCE3003F55AA /* DoubleExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DoubleExtension.swift; sourceTree = "<group>"; };
 		B260943C29C3D86B006F4AAA /* AudiFakeUIKitApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AudiFakeUIKitApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B260943F29C3D86B006F4AAA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B260944129C3D86B006F4AAA /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -63,6 +65,7 @@
 			isa = PBXGroup;
 			children = (
 				7FAF665429C4107C0066EC4E /* UIImageExtension.swift */,
+				B23E6D6A29CCCCE3003F55AA /* DoubleExtension.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -258,6 +261,7 @@
 				B260944029C3D86B006F4AAA /* AppDelegate.swift in Sources */,
 				B21ED21C29C4E68500D28052 /* VersionSelectionViewController.swift in Sources */,
 				7FAF665A29C413930066EC4E /* AudiCarVersion.swift in Sources */,
+				B23E6D6B29CCCCE3003F55AA /* DoubleExtension.swift in Sources */,
 				B260944229C3D86B006F4AAA /* SceneDelegate.swift in Sources */,
 				B21ED22829C4F8FC00D28052 /* CarVersionTableViewCell.swift in Sources */,
 				B21ED22429C4EB2000D28052 /* AudiImageCacheManager.swift in Sources */,

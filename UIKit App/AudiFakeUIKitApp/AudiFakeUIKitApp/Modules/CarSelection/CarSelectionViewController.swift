@@ -1,8 +1,9 @@
 import UIKit
 
-class CarSelectionViewController: UIViewController {
+class CarSelectionViewController: MasterViewController {
     // MARK: - UIElements
     @IBOutlet weak var carsCollection: UICollectionView!
+    var refreshControl: UIRefreshControl = UIRefreshControl()
     
     // MARK: - Logic Vars
     var cars: [AudiCarModel] = []
@@ -21,21 +22,31 @@ class CarSelectionViewController: UIViewController {
     // MARK: - View Configuration
     private func initialConfiguration() {
         title = "Elige un Audi"
+        refreshControl.addTarget(self, action: #selector(fetchCars), for: .valueChanged)
         let carCellNib: UINib = UINib(nibName: String(describing: CarCollectionViewCell.self), bundle: Bundle(for: type(of: self)))
         carsCollection.register(carCellNib, forCellWithReuseIdentifier: String(describing: CarCollectionViewCell.self))
         carsCollection.dataSource = self
         carsCollection.delegate = self
+        carsCollection.addSubview(refreshControl)
         fetchCars()
     }
     
-    func fetchCars() {
+    @objc func fetchCars() {
+        carsCollection.refreshControl?.beginRefreshing()
         guard let url = URL(string: "http://127.0.0.1:8080/audiAPI/carList") else { return }
         let urlRequest = URLRequest(url: url)
         let task = URLSession.shared.dataTask(with: urlRequest) { [weak self] (data, urlResponse, error) in
             guard let self = self,
                   let data = data,
-                  let response = try? JSONDecoder().decode([AudiCarModel].self, from: data) else { return }
+                  let response = try? JSONDecoder().decode([AudiCarModel].self, from: data) else {
+                DispatchQueue.main.async {
+                    self?.refreshControl.endRefreshing()
+                    self?.showError(messge: "Hubo un error al cargar la información, intenta de nuevo más tarde")
+                }
+                return
+            }
             DispatchQueue.main.async {
+                self.refreshControl.endRefreshing()
                 self.printCars(response)
             }
         }
@@ -57,9 +68,14 @@ extension CarSelectionViewController: UICollectionViewDataSource {
     func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
         guard let cell = collectionView.dequeueReusableCell(withReuseIdentifier: String(describing: CarCollectionViewCell.self), for: indexPath) as? CarCollectionViewCell,
               let imageUrl = cars[indexPath.row].getImageUrl() else { return UICollectionViewCell() }
-        AudiImageCacheManager.shared.fetchImage(locatedAt: imageUrl) { image, origin in
-            guard let image = image else { return }
-            cell.drawCarImage(image, animated: origin == .network)
+        if let cacheImage = AudiImageCacheManager.shared.image(locatedAt: imageUrl) {
+            cell.drawCarImage(cacheImage, animated: false)
+        } else if let holderImage = UIImage(named: "AudiLogo") {
+            cell.drawDefaultImage(holderImage)
+            AudiImageCacheManager.shared.fetchImage(locatedAt: imageUrl) { image, origin in
+                guard let image = image else { return }
+                cell.drawCarImage(image, animated: true)
+            }
         }
         return cell
     }

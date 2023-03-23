@@ -11,6 +11,12 @@ class AudiImageCacheManager {
     
     private var cache: NSCache = NSCache<NSString, UIImage>()
     
+    func image(locatedAt url: URL) -> UIImage? {
+        let imageKey: NSString = url.absoluteString as NSString
+        guard let cacheImage = cache.object(forKey: imageKey) else { return nil }
+        return cacheImage
+    }
+    
     func fetchImage(locatedAt url: URL, completion: @escaping (UIImage?,  AudiImageOrigin) -> Void) {
         let imageKey: NSString = url.absoluteString as NSString
         if let cacheImage = cache.object(forKey: imageKey) {

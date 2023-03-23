@@ -16,7 +16,11 @@ extension AudiCarVersion: CarVersionTableViewCellProtocol {
     }
     
     func getInitialPrice() -> String? {
-        return "Desde: $\(initialPrice ?? 0.0)"
+        guard let initialPrice = initialPrice,
+              let formattedPrice = initialPrice.currencyFormatted() else {
+            return "Precio no disponible"
+        }
+        return "Desde: \(formattedPrice)"
     }
     
     func getVersionImageUrl() -> URL? {
