@@ -69,6 +69,7 @@
                 "versionName": "S4 Sedán",
                 "initialPrice": 1294900.00,
                 "coverImageUrl": "https://www.dropbox.com/s/ovha7z7oe6grdm3/s4_cover.jpg?dl=1",
+                "frontImageUrl": "https://www.dropbox.com/s/jc0hlcobxpm29h0/s4_front.jpg?dl=1",
                 "stock": 7
             }
         ]
@@ -85,6 +86,7 @@
                 "versionName": "A5 Coupé",
                 "initialPrice": 899900.00,
                 "coverImageUrl": "https://www.dropbox.com/s/vpo0ffxus9j1vgd/a5coupe_cover.jpg?dl=1",
+                "frontImageUrl": "https://www.dropbox.com/s/kvjdgq1sof7u3e0/a5coupe_front.jpg?dl=1",
                 "stock": 50
             },
             {
@@ -92,6 +94,7 @@
                 "versionName": "A5 Sportback",
                 "initialPrice": 899900.00,
                 "coverImageUrl": "https://www.dropbox.com/s/p2efelsvyooquwn/a5sportback_cover.jpg?dl=1",
+                "frontImageUrl": "https://www.dropbox.com/s/1dzmzfei2bgvq4s/a5sportback_front.jpg?dl=1",
                 "stock": 7
             },
             {
@@ -99,6 +102,7 @@
                 "versionName": "S5 Coupé",
                 "initialPrice": 1324900.00,
                 "coverImageUrl": "https://www.dropbox.com/s/83p7rmtla6onl7y/s5coupe_cover.jpg?dl=1",
+                "frontImageUrl": "https://www.dropbox.com/s/s164bo4j0l63ews/s5coupe_front.jpg?dl=1",
                 "stock": 7
             },
             {
@@ -106,6 +110,7 @@
                 "versionName": "S5 Sportback",
                 "initialPrice": 1324900.00,
                 "coverImageUrl": "https://www.dropbox.com/s/7cw1fyj7h1pxsuk/s5sportback_cover.jpg?dl=1",
+                "frontImageUrl": "https://www.dropbox.com/s/yp9pw4llvx5fnit/s5sportback_front.jpg?dl=1",
                 "stock": 7
             },
             {
@@ -113,13 +118,15 @@
                 "versionName": "RS5 Coupé",
                 "initialPrice": 1804900.00,
                 "coverImageUrl": "https://www.dropbox.com/s/7cw1fyj7h1pxsuk/s5sportback_cover.jpg?dl=1",
+                "frontImageUrl": "https://www.dropbox.com/s/owaw24d0zel0ig7/rs5coupe_front.jpg?dl=1",
                 "stock": 7
             },
             {
                 "versionId": "rs5sb",
                 "versionName": "RS5 Sportback",
                 "initialPrice": 1804900.00,
-                "coverImageUrl": "https://www.dropbox.com/s/kgc81tbn94dlna2/rs5sportback_cover.jpg?dl=0",
+                "coverImageUrl": "https://www.dropbox.com/s/kgc81tbn94dlna2/rs5sportback_cover.jpg?dl=1",
+                "frontImageUrl": "https://www.dropbox.com/s/761peeixn8sb700/rs5sportback_front.jpg?dl=1",
                 "stock": 7
             }
         ]
@@ -136,6 +143,7 @@
                 "versionName": "A6 Sedán",
                 "initialPrice": 1079900.00,
                 "coverImageUrl": "https://www.dropbox.com/s/jjw8fdzawrksshm/a6_cover.jpg?dl=1",
+                "frontImageUrl": "https://www.dropbox.com/s/knjb97xq0uv1ks6/a6_front.jpg?dl=1",
                 "stock": 50
             },
             {
@@ -143,6 +151,7 @@
                 "versionName": "S6 Sedán",
                 "initialPrice": 1779900.00,
                 "coverImageUrl": "https://www.dropbox.com/s/vu5j6h9dai3no09/s6_cover.jpg?dl=1",
+                "frontImageUrl": "https://www.dropbox.com/s/a3plk21cjc3o7p6/s6_front.jpg?dl=1",
                 "stock": 7
             }
         ]
@@ -159,6 +168,7 @@
                 "versionName": "A7 Sportback",
                 "initialPrice": 1319900.00,
                 "coverImageUrl": "https://www.dropbox.com/s/rn7togm0iop3uj8/a7sportback_cover.jpg?dl=1",
+                "frontImageUrl": "https://www.dropbox.com/s/6vufdqovif44eni/a7sportback_front.jpg?dl=1",
                 "stock": 50
             },
             {
@@ -166,6 +176,7 @@
                 "versionName": "S7 Sportback",
                 "initialPrice": 1914900.00,
                 "coverImageUrl": "https://www.dropbox.com/s/kqrswvpwkz4h9dw/s7sportback_cover.jpg?dl=1",
+                "frontImageUrl": "https://www.dropbox.com/s/zwywg907lz2o2gx/s7sportback_front.jpg?dl=1",
                 "stock": 7
             },
             {
@@ -173,7 +184,41 @@
                 "versionName": "RS7 Sportback",
                 "initialPrice": 2944900.00,
                 "coverImageUrl": "https://www.dropbox.com/s/zzgg89n8z88oi97/rs7sportback_cover.jpg?dl=1",
+                "frontImageUrl": "https://www.dropbox.com/s/lpgsyr3yh2cvnvg/rs7sportback_front.jpg?dl=1",
                 "stock": 7
+            }
+        ]
+    },
+    {
+        "modelId": "a8",
+        "modelName": "A8",
+        "modelYear": 2023,
+        "imageUrl": "https://www.dropbox.com/s/vypwqbefym16xag/a8.png?dl=1",
+        "initialPrice": 2169900.00,
+        "versions": [
+            {
+                "versionId": "a8",
+                "versionName": "A8",
+                "initialPrice": 2169900.00,
+                "coverImageUrl": "https://www.dropbox.com/s/lm1iedn4w5aich4/a8_cover.jpg?dl=1",
+                "frontImageUrl": "https://www.dropbox.com/s/knqbeguybl4y7tj/a8_body_6.jpg?dl=1",
+                "stock": 10
+            },
+            {
+                "versionId": "a8l",
+                "versionName": "A8 L",
+                "initialPrice": 3269900.00,
+                "coverImageUrl": "https://www.dropbox.com/s/0iib8muoes5epr5/a8_L_cover.jpg?dl=1",
+                "frontImageUrl": "https://www.dropbox.com/s/yvnpn94fprsa8yy/a8_l_body_5.jpg?dl=1",
+                "stock": 0
+            },
+            {
+                "versionId": "s8",
+                "versionName": "S8",
+                "initialPrice": 3279900.00,
+                "coverImageUrl": "https://www.dropbox.com/s/l7y3usmgw86p7gc/s8_cover.jpg?dl=1",
+                "frontImageUrl": "https://www.dropbox.com/s/dkqfgms7k1n0qne/s8_body_2.jpg?dl=1",
+                "stock": 2
             }
         ]
     },
@@ -188,7 +233,8 @@
                 "versionId": "q2s",
                 "versionName": "Q2",
                 "initialPrice": 634900.00,
-                "coverImageUrl": null,
+                "coverImageUrl": "https://www.dropbox.com/s/na2lu6mjlp17p0o/q2_cover.jpg?dl=1",
+                "frontImageUrl": "https://www.dropbox.com/s/1ospz2e0cugeqzl/q2_body_4.jpg?dl=1",
                 "stock": 10
             }
         ]
@@ -204,21 +250,24 @@
                 "versionId": "q3s",
                 "versionName": "Q3",
                 "initialPrice": 759900.00,
-                "coverImageUrl": null,
+                "coverImageUrl": "https://www.dropbox.com/s/njxksiz8n6z79ix/q3_cover.jpg?dl=1",
+                "frontImageUrl": "https://www.dropbox.com/s/1f9j510fr402fxz/q3_body_6.jpg?dl=1",
                 "stock": 50
             },
             {
                 "versionId": "q3sb",
                 "versionName": "Q3 Sportback",
                 "initialPrice": 839900.00,
-                "coverImageUrl": null,
+                "coverImageUrl": "https://www.dropbox.com/s/a1w8kakr6fk1y54/q3_sportback_cover.jpg?dl=1",
+                "frontImageUrl": "https://www.dropbox.com/s/cnp2em00lkg7gzg/q3_sportback_body_6.jpg?dl=1",
                 "stock": 7
             },
             {
                 "versionId": "rsq3sb",
                 "versionName": "RSQ3 Sportback",
                 "initialPrice": 1584900.00,
-                "coverImageUrl": null,
+                "coverImageUrl": "https://www.dropbox.com/s/rhky90b6ko96y8w/rs_q3_cover.jpg?dl=1",
+                "frontImageUrl": "https://www.dropbox.com/s/nmjrxwzquos3ds1/rs_q3_body_6.jpg?dl=1",
                 "stock": 7
             }
         ]
@@ -231,17 +280,35 @@
         "initialPrice": 759900.00,
         "versions": [
             {
-                "versionId": "q5s",
+                "versionId": "q5",
                 "versionName": "Q5",
-                "initialPrice": 759900.00,
-                "coverImageUrl": null,
+                "initialPrice": 1084900.00,
+                "coverImageUrl": "https://www.dropbox.com/s/y45mupowxbvfkfi/q5_cover.jpg?dl=1",
+                "frontImageUrl": "https://www.dropbox.com/s/rdhzzwi20k6rmqi/q5_s_body_4.jpg?dl=1",
                 "stock": 50
             },
             {
                 "versionId": "q5sb",
                 "versionName": "Q5 Sportback",
-                "initialPrice": 839900.00,
-                "coverImageUrl": null,
+                "initialPrice": 11949000.00,
+                "coverImageUrl": "https://www.dropbox.com/s/3inwefeexrjig7i/q5_sportback_cover.jpg?dl=1",
+                "frontImageUrl": "https://www.dropbox.com/s/rdhzzwi20k6rmqi/q5_s_body_4.jpg?dl=1",
+                "stock": 7
+            },
+            {
+                "versionId": "q5s",
+                "versionName": "Q5 S",
+                "initialPrice": 1429900.00,
+                "coverImageUrl": "https://www.dropbox.com/s/gu9yy9s8n8ebulb/q5_s_cover.jpg?dl=1",
+                "frontImageUrl": "https://www.dropbox.com/s/rdhzzwi20k6rmqi/q5_s_body_4.jpg?dl=1",
+                "stock": 50
+            },
+            {
+                "versionId": "q5ssb",
+                "versionName": "Q5 S Sportback",
+                "initialPrice": 1539900.00,
+                "coverImageUrl": "https://www.dropbox.com/s/o415edz1jyhjzsk/q5_s_sportback_cover.jpg?dl=1",
+                "frontImageUrl": "https://www.dropbox.com/s/rdhzzwi20k6rmqi/q5_s_body_4.jpg?dl=1",
                 "stock": 7
             }
         ]
@@ -257,7 +324,8 @@
                 "versionId": "q7s",
                 "versionName": "Q7",
                 "initialPrice": 1524900.00,
-                "coverImageUrl": null,
+                "coverImageUrl": "https://www.dropbox.com/s/r3vj55fo58svzo0/q7_cover.jpg?dl=1",
+                "frontImageUrl": "https://www.dropbox.com/s/a2ldvuox86r2i90/q7_body_7.jpg?dl=1",
                 "stock": 50
             }
         ]
@@ -273,14 +341,16 @@
                 "versionId": "q8s",
                 "versionName": "Q5",
                 "initialPrice": 1604900.00,
-                "coverImageUrl": null,
+                "coverImageUrl": "https://www.dropbox.com/s/yhji66t3odw9yvp/q8_cover.jpg?dl=1",
+                "frontImageUrl": "https://www.dropbox.com/s/heyao6djaosuotn/q8_body_6.jpg?dl=1",
                 "stock": 50
             },
             {
                 "versionId": "rsq8s",
                 "versionName": "RSQ8",
                 "initialPrice": 2769900.00,
-                "coverImageUrl": null,
+                "coverImageUrl": "https://www.dropbox.com/s/au07x5p000iys40/rs_q8_cover.jpg?dl=1",
+                "frontImageUrl": "https://www.dropbox.com/s/s1cf9zxlf3vka4q/rs_q8_body_7.jpg?dl=1",
                 "stock": 7
             }
         ]
@@ -296,21 +366,24 @@
                 "versionId": "etrons",
                 "versionName": "e-tron",
                 "initialPrice": null,
-                "coverImageUrl": null,
+                "coverImageUrl": "https://www.dropbox.com/s/fy8l1lr38ocjtv8/e-tron_cover.jpg?dl=1",
+                "frontImageUrl": null,
                 "stock": 0
             },
             {
                 "versionId": "etronsb",
                 "versionName": "e-tron Sportback",
                 "initialPrice": null,
-                "coverImageUrl": null,
+                "coverImageUrl": "https://www.dropbox.com/s/bdc20cxcj4a0cl4/e-tron_sportback_cover.jpg?dl=1",
+                "frontImageUrl": null,
                 "stock": 0
             },
             {
                 "versionId": "setronsb",
                 "versionName": "e-tron S Sportback",
                 "initialPrice": null,
-                "coverImageUrl": null,
+                "coverImageUrl": "https://www.dropbox.com/s/ckq6aw5p7vwxrhy/e-tron_s_sportback_cover.jpg?dl=1",
+                "frontImageUrl": null,
                 "stock": 0
             }
         ]
@@ -326,7 +399,8 @@
                 "versionId": "rsetrongt",
                 "versionName": "RS e-tron GT",
                 "initialPrice": 3289900.00,
-                "coverImageUrl": null,
+                "coverImageUrl": "https://www.dropbox.com/s/62uhtvqh8k9b9be/rs-e-tron-cover.jpg?dl=1",
+                "frontImageUrl": null,
                 "stock": 50
             }
         ]
@@ -341,15 +415,17 @@
             {
                 "versionId": "ttc",
                 "versionName": "TT Coupé",
-                "initialPrice": 1604900.00,
-                "coverImageUrl": null,
+                "initialPrice": 1244900.00,
+                "coverImageUrl": "https://www.dropbox.com/s/ns38vd1li66z5gg/tt_coupe_cover.jpg?dl=1",
+                "frontImageUrl": "https://www.dropbox.com/s/tvm6bfd3gnhqwaj/tt_coupe_body_2.jpg?dl=1",
                 "stock": 50
             },
             {
                 "versionId": "rstt",
                 "versionName": "TT RS Coupé",
-                "initialPrice": 1514900.00,
-                "coverImageUrl": null,
+                "initialPrice": 1549900.00,
+                "coverImageUrl": "https://www.dropbox.com/s/encb7e3eo7o43xi/tt_rs_cover.jpg?dl=1",
+                "frontImageUrl": null,
                 "stock": 7
             }
         ]
@@ -365,14 +441,16 @@
                 "versionId": "r8s",
                 "versionName": "R8 Coupé V10",
                 "initialPrice": 3094900.00,
-                "coverImageUrl": null,
+                "coverImageUrl": "https://www.dropbox.com/s/m2ek3f14b6z1syr/r8_coupe_cover.jpg?dl=1",
+                "frontImageUrl": null,
                 "stock": 50
             },
             {
                 "versionId": "r8sp",
                 "versionName": "R8 Sypder V10",
                 "initialPrice": 3879900.00,
-                "coverImageUrl": null,
+                "coverImageUrl": "https://www.dropbox.com/s/9n7mpahsk3m566w/r8_spyder_cover.jpg?dl=1",
+                "frontImageUrl": null,
                 "stock": 7
             }
         ]
