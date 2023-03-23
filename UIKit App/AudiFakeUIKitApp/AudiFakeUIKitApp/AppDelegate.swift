@@ -1,10 +1,3 @@
-//
-//  AppDelegate.swift
-//  AudiFakeUIKitApp
-//
-//  Created by jcruzsa on 16/03/23.
-//
-
 import UIKit
 
 @main
