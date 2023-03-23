@@ -19,17 +19,6 @@
             <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
             <subviews>
-                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="AudiLaunchScreen" translatesAutoresizingMaskIntoConstraints="NO" id="eEx-XA-gPV">
-                    <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
-                </imageView>
-                <visualEffectView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="UIV-Li-ccj">
-                    <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
-                    <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" id="mxO-l4-yWy">
-                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                    </view>
-                    <blurEffect style="regular"/>
-                </visualEffectView>
                 <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="bZb-Mr-RCY">
                     <rect key="frame" x="0.0" y="59" width="393" height="759"/>
                     <subviews>
@@ -51,23 +40,14 @@
             <color key="backgroundColor" systemColor="systemBackgroundColor"/>
             <constraints>
                 <constraint firstItem="bZb-Mr-RCY" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" id="If5-Sx-cjc"/>
-                <constraint firstItem="eEx-XA-gPV" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" id="KOs-ol-RXc"/>
-                <constraint firstItem="eEx-XA-gPV" firstAttribute="trailing" secondItem="fnl-2z-Ty3" secondAttribute="trailing" id="NHI-SF-qZZ"/>
-                <constraint firstItem="UIV-Li-ccj" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" id="O8a-kM-d2o"/>
                 <constraint firstItem="fnl-2z-Ty3" firstAttribute="bottom" secondItem="bZb-Mr-RCY" secondAttribute="bottom" id="Pnb-4I-N33"/>
-                <constraint firstAttribute="bottom" secondItem="UIV-Li-ccj" secondAttribute="bottom" id="RiF-Zq-3WY"/>
                 <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="bZb-Mr-RCY" secondAttribute="trailing" id="SQg-gD-aQU"/>
-                <constraint firstItem="UIV-Li-ccj" firstAttribute="trailing" secondItem="fnl-2z-Ty3" secondAttribute="trailing" id="Scm-8L-XIu"/>
                 <constraint firstItem="bZb-Mr-RCY" firstAttribute="top" secondItem="fnl-2z-Ty3" secondAttribute="top" id="cjq-X8-XvJ"/>
-                <constraint firstAttribute="bottom" secondItem="eEx-XA-gPV" secondAttribute="bottom" id="fp0-lT-gNm"/>
-                <constraint firstItem="UIV-Li-ccj" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" id="mdf-Ol-Aae"/>
-                <constraint firstItem="eEx-XA-gPV" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" id="uKD-Rc-1fQ"/>
             </constraints>
             <point key="canvasLocation" x="136.64122137404578" y="19.718309859154932"/>
         </view>
     </objects>
     <resources>
-        <image name="AudiLaunchScreen" width="213.33332824707031" height="379.33334350585938"/>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>

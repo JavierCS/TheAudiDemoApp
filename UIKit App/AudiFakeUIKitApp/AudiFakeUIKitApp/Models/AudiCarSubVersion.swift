@@ -1,8 +1,13 @@
-//
-//  AudiCarSubVersion.swift
-//  AudiFakeUIKitApp
-//
-//  Created by jcruzsa on 23/03/23.
-//
-
 import Foundation
+
+struct AudiCarSubVersion: Decodable {
+    var subVersionCompleteName: String?
+    var subVersionShortName: String?
+    var motorizationData: AudiCarMotorization?
+    var dimentionsData: AudiCarDimentions?
+    var assistanceAndSafetySystems: [AudiAssistanceAndSafetySystem]?
+    var infotainment: [AudiAssistanceAndSafetySystem]?
+    var interiorsAndComfort: [AudiAssistanceAndSafetySystem]?
+    var exterior: [AudiAssistanceAndSafetySystem]?
+    var sLinePackage: [AudiAssistanceAndSafetySystem]?
+}
