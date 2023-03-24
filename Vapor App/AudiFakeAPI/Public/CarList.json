@@ -3,7 +3,7 @@
         "modelId": "a1",
         "modelName": "A1",
         "modelYear": 2023,
-        "imageUrl": "https://www.dropbox.com/s/kn1sz7hkbp7v6d4/a1.png?dl=1",
+        "imageUrl": null,
         "initialPrice": 514900.00,
         "versions": [
             {
@@ -363,7 +363,7 @@
         "initialPrice": null,
         "versions": [
             {
-                "versionId": "etrons",
+                "versionId": "e-tron",
                 "versionName": "e-tron",
                 "initialPrice": null,
                 "coverImageUrl": "https://www.dropbox.com/s/fy8l1lr38ocjtv8/e-tron_cover.jpg?dl=1",
@@ -371,7 +371,7 @@
                 "stock": 0
             },
             {
-                "versionId": "etronsb",
+                "versionId": "e-tronsb",
                 "versionName": "e-tron Sportback",
                 "initialPrice": null,
                 "coverImageUrl": "https://www.dropbox.com/s/bdc20cxcj4a0cl4/e-tron_sportback_cover.jpg?dl=1",
@@ -379,7 +379,7 @@
                 "stock": 0
             },
             {
-                "versionId": "setronsb",
+                "versionId": "e-tronssb",
                 "versionName": "e-tron S Sportback",
                 "initialPrice": null,
                 "coverImageUrl": "https://www.dropbox.com/s/ckq6aw5p7vwxrhy/e-tron_s_sportback_cover.jpg?dl=1",
@@ -396,7 +396,7 @@
         "initialPrice": 3289900.00,
         "versions": [
             {
-                "versionId": "rsetrongt",
+                "versionId": "rse-trongt",
                 "versionName": "RS e-tron GT",
                 "initialPrice": 3289900.00,
                 "coverImageUrl": "https://www.dropbox.com/s/62uhtvqh8k9b9be/rs-e-tron-cover.jpg?dl=1",
@@ -421,7 +421,7 @@
                 "stock": 50
             },
             {
-                "versionId": "rstt",
+                "versionId": "ttrsc",
                 "versionName": "TT RS Coupé",
                 "initialPrice": 1549900.00,
                 "coverImageUrl": "https://www.dropbox.com/s/encb7e3eo7o43xi/tt_rs_cover.jpg?dl=1",
@@ -438,7 +438,7 @@
         "initialPrice": 3094900.00,
         "versions": [
             {
-                "versionId": "r8s",
+                "versionId": "r8cv10",
                 "versionName": "R8 Coupé V10",
                 "initialPrice": 3094900.00,
                 "coverImageUrl": "https://www.dropbox.com/s/m2ek3f14b6z1syr/r8_coupe_cover.jpg?dl=1",
@@ -446,7 +446,7 @@
                 "stock": 50
             },
             {
-                "versionId": "r8sp",
+                "versionId": "r8sv10",
                 "versionName": "R8 Sypder V10",
                 "initialPrice": 3879900.00,
                 "coverImageUrl": "https://www.dropbox.com/s/9n7mpahsk3m566w/r8_spyder_cover.jpg?dl=1",

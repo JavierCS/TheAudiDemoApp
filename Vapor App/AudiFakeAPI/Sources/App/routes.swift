@@ -2,7 +2,7 @@ import Foundation
 import Vapor
 
 func routes(_ app: Application) throws {
-    app.get("audiAPI", "carList") { req async throws -> [AudiCarModel] in
+    app.get("audiAPI", "carList") { req async throws -> Response in
         let filePath = req.application.directory.publicDirectory + "CarList.json"
         guard FileManager.default.fileExists(atPath: filePath) else {
             throw Abort(.notFound)
@@ -11,7 +11,13 @@ func routes(_ app: Application) throws {
             throw Abort(.internalServerError)
         }
         let cars: [AudiCarModel] = try JSONDecoder().decode([AudiCarModel].self, from: fileData)
-        return cars
+        for car in cars {
+            car.validateUrls(using: req.application)
+        }
+        let response = Response(status: .ok)
+        response.headers.contentType = .json
+        try response.content.encode(cars)
+        return response
     }
     
     app.get("audiAPI","versionDetails") { req async throws -> Response in

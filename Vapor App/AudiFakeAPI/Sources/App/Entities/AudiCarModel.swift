@@ -25,4 +25,13 @@ struct AudiCarModel: Content {
         try container.encode(self.initialPrice, forKey: .initialPrice)
         try container.encode(self.versions, forKey: .versions)
     }
+    
+    func validateUrls(using app: Application) {
+        guard let serverUrl = app.getServerUrl(),
+              let modelId = modelId else { return }
+        
+        if imageUrl == nil {
+            print(app.getModelImageUrl(for: modelId))
+        }
+    }
 }

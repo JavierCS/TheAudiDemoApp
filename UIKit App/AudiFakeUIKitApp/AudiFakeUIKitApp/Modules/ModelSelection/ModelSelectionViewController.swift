@@ -66,8 +66,8 @@ extension ModelSelectionViewController: UICollectionViewDataSource {
     }
     
     func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
-        guard let cell = collectionView.dequeueReusableCell(withReuseIdentifier: String(describing: ModelCollectionViewCell.self), for: indexPath) as? ModelCollectionViewCell,
-              let imageUrl = cars[indexPath.row].getImageUrl() else { return UICollectionViewCell() }
+        guard let cell = collectionView.dequeueReusableCell(withReuseIdentifier: String(describing: ModelCollectionViewCell.self), for: indexPath) as? ModelCollectionViewCell else { return UICollectionViewCell() }
+        guard let imageUrl = cars[indexPath.row].getImageUrl() else { return cell }
         if let cacheImage = AudiImageCacheManager.shared.image(locatedAt: imageUrl) {
             cell.drawCarImage(cacheImage, animated: false)
         } else if let holderImage = UIImage(named: "AudiLogo") {
