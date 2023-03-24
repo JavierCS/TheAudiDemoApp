@@ -8,9 +8,9 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <objects>
-        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="CarSelectionViewController" customModule="AudiFakeUIKitApp" customModuleProvider="target">
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="ModelSelectionViewController" customModule="AudiFakeUIKitApp" customModuleProvider="target">
             <connections>
-                <outlet property="carsCollection" destination="jIM-ge-EMg" id="ioo-Nh-xDQ"/>
+                <outlet property="modelsCollection" destination="K3G-mX-VSa" id="Bqi-4w-wNW"/>
                 <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
             </connections>
         </placeholder>
@@ -19,10 +19,10 @@
             <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
             <subviews>
-                <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="none" translatesAutoresizingMaskIntoConstraints="NO" id="jIM-ge-EMg">
+                <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="none" translatesAutoresizingMaskIntoConstraints="NO" id="K3G-mX-VSa">
                     <rect key="frame" x="0.0" y="59" width="393" height="759"/>
                     <color key="backgroundColor" systemColor="systemBackgroundColor"/>
-                    <collectionViewFlowLayout key="collectionViewLayout" automaticEstimatedItemSize="YES" minimumLineSpacing="0.0" minimumInteritemSpacing="0.0" id="f3b-Op-Jc1">
+                    <collectionViewFlowLayout key="collectionViewLayout" minimumLineSpacing="0.0" minimumInteritemSpacing="0.0" id="0o8-Un-Eed">
                         <size key="itemSize" width="128" height="128"/>
                         <size key="headerReferenceSize" width="0.0" height="0.0"/>
                         <size key="footerReferenceSize" width="0.0" height="0.0"/>
@@ -33,12 +33,12 @@
             <viewLayoutGuide key="safeArea" id="fnl-2z-Ty3"/>
             <color key="backgroundColor" systemColor="systemBackgroundColor"/>
             <constraints>
-                <constraint firstItem="jIM-ge-EMg" firstAttribute="bottom" secondItem="fnl-2z-Ty3" secondAttribute="bottom" id="5SS-I0-xlN"/>
-                <constraint firstItem="jIM-ge-EMg" firstAttribute="trailing" secondItem="fnl-2z-Ty3" secondAttribute="trailing" id="Jvn-PL-ONK"/>
-                <constraint firstItem="jIM-ge-EMg" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" id="KMv-jd-nX3"/>
-                <constraint firstItem="jIM-ge-EMg" firstAttribute="top" secondItem="fnl-2z-Ty3" secondAttribute="top" id="NGg-eJ-Yif"/>
+                <constraint firstItem="K3G-mX-VSa" firstAttribute="trailing" secondItem="fnl-2z-Ty3" secondAttribute="trailing" id="5U0-o0-f35"/>
+                <constraint firstItem="K3G-mX-VSa" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" id="5VT-JL-Dt6"/>
+                <constraint firstItem="K3G-mX-VSa" firstAttribute="bottom" secondItem="fnl-2z-Ty3" secondAttribute="bottom" id="kkc-ZT-Tu8"/>
+                <constraint firstItem="K3G-mX-VSa" firstAttribute="top" secondItem="fnl-2z-Ty3" secondAttribute="top" id="llc-RJ-vln"/>
             </constraints>
-            <point key="canvasLocation" x="23.664122137404579" y="19.718309859154932"/>
+            <point key="canvasLocation" x="136.64122137404578" y="19.718309859154932"/>
         </view>
     </objects>
     <resources>

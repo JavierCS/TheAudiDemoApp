@@ -1,10 +1,10 @@
 import UIKit
 
-protocol CarCollectionViewCellProtocol: AnyObject {
+protocol ModelCollectionViewCellProtocol: AnyObject {
     func getImageUrl() -> URL?
 }
 
-class CarCollectionViewCell: UICollectionViewCell {
+class ModelCollectionViewCell: UICollectionViewCell {
     // MARK: - UIElements
     @IBOutlet weak var carImageView: UIImageView!
     

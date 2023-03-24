@@ -1,16 +1,16 @@
 import UIKit
 
-class CarSelectionViewController: MasterViewController {
+class ModelSelectionViewController: MasterViewController {
     // MARK: - UIElements
-    @IBOutlet weak var carsCollection: UICollectionView!
+    @IBOutlet weak var modelsCollection: UICollectionView!
     var refreshControl: UIRefreshControl = UIRefreshControl()
     
     // MARK: - Logic Vars
     var cars: [AudiCarModel] = []
     
     // MARK: - Initialization Code
-    static func fromNib() -> CarSelectionViewController {
-        return CarSelectionViewController(nibName: String(describing: CarSelectionViewController.self), bundle: .main)
+    static func fromNib() -> ModelSelectionViewController {
+        return ModelSelectionViewController(nibName: String(describing: ModelSelectionViewController.self), bundle: .main)
     }
     
     // MARK: - Lifecycle Management
@@ -23,16 +23,16 @@ class CarSelectionViewController: MasterViewController {
     private func initialConfiguration() {
         title = "Elige un Audi"
         refreshControl.addTarget(self, action: #selector(fetchCars), for: .valueChanged)
-        let carCellNib: UINib = UINib(nibName: String(describing: CarCollectionViewCell.self), bundle: Bundle(for: type(of: self)))
-        carsCollection.register(carCellNib, forCellWithReuseIdentifier: String(describing: CarCollectionViewCell.self))
-        carsCollection.dataSource = self
-        carsCollection.delegate = self
-        carsCollection.addSubview(refreshControl)
+        let modelCellNib: UINib = UINib(nibName: String(describing: ModelCollectionViewCell.self), bundle: .main)
+        modelsCollection.register(modelCellNib, forCellWithReuseIdentifier: String(describing: ModelCollectionViewCell.self))
+        modelsCollection.dataSource = self
+        modelsCollection.delegate = self
+        modelsCollection.addSubview(refreshControl)
         fetchCars()
     }
     
     @objc func fetchCars() {
-        carsCollection.refreshControl?.beginRefreshing()
+        modelsCollection.refreshControl?.beginRefreshing()
         guard let url = URL(string: "http://127.0.0.1:8080/audiAPI/carList") else { return }
         let urlRequest = URLRequest(url: url)
         let task = URLSession.shared.dataTask(with: urlRequest) { [weak self] (data, urlResponse, error) in
@@ -55,18 +55,18 @@ class CarSelectionViewController: MasterViewController {
     
     func printCars(_ cars: [AudiCarModel]) {
         self.cars = cars
-        carsCollection.reloadData()
+        modelsCollection.reloadData()
     }
 }
 
 // MARK: - UICollectionViewDataSource Management
-extension CarSelectionViewController: UICollectionViewDataSource {
+extension ModelSelectionViewController: UICollectionViewDataSource {
     func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
         return cars.count
     }
     
     func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
-        guard let cell = collectionView.dequeueReusableCell(withReuseIdentifier: String(describing: CarCollectionViewCell.self), for: indexPath) as? CarCollectionViewCell,
+        guard let cell = collectionView.dequeueReusableCell(withReuseIdentifier: String(describing: ModelCollectionViewCell.self), for: indexPath) as? ModelCollectionViewCell,
               let imageUrl = cars[indexPath.row].getImageUrl() else { return UICollectionViewCell() }
         if let cacheImage = AudiImageCacheManager.shared.image(locatedAt: imageUrl) {
             cell.drawCarImage(cacheImage, animated: false)
@@ -82,7 +82,7 @@ extension CarSelectionViewController: UICollectionViewDataSource {
 }
 
 // MARK: - UICollectionViewDelegateFlowLayout Management
-extension CarSelectionViewController: UICollectionViewDelegateFlowLayout {
+extension ModelSelectionViewController: UICollectionViewDelegateFlowLayout {
     func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, sizeForItemAt indexPath: IndexPath) -> CGSize {
         let heightWidthConstant = collectionView.frame.width / 2
         return CGSize(width: heightWidthConstant, height: heightWidthConstant)
@@ -93,4 +93,5 @@ extension CarSelectionViewController: UICollectionViewDelegateFlowLayout {
         let versionSelection = VersionSelectionViewController.fromNib(using: selectedCarVersions)
         show(versionSelection, sender: nil)
     }
+
 }

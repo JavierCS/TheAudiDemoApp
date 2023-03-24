@@ -25,10 +25,12 @@
 		B260944229C3D86B006F4AAA /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B260944129C3D86B006F4AAA /* SceneDelegate.swift */; };
 		B260944929C3D86D006F4AAA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B260944829C3D86D006F4AAA /* Assets.xcassets */; };
 		B260944C29C3D86D006F4AAA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B260944A29C3D86D006F4AAA /* LaunchScreen.storyboard */; };
-		B260945729C3DB20006F4AAA /* CarSelectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B260945529C3DB20006F4AAA /* CarSelectionViewController.swift */; };
-		B260945829C3DB20006F4AAA /* CarSelectionViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B260945629C3DB20006F4AAA /* CarSelectionViewController.xib */; };
-		B260945C29C3DF3D006F4AAA /* CarCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B260945A29C3DF3D006F4AAA /* CarCollectionViewCell.swift */; };
-		B260945D29C3DF3D006F4AAA /* CarCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = B260945B29C3DF3D006F4AAA /* CarCollectionViewCell.xib */; };
+		B2EB656B29CE0A0E00C842C2 /* VersionDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2EB656929CE0A0E00C842C2 /* VersionDetailViewController.swift */; };
+		B2EB656C29CE0A0E00C842C2 /* VersionDetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B2EB656A29CE0A0E00C842C2 /* VersionDetailViewController.xib */; };
+		B2EB656F29CE0B8A00C842C2 /* ModelSelectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2EB656D29CE0B8A00C842C2 /* ModelSelectionViewController.swift */; };
+		B2EB657029CE0B8A00C842C2 /* ModelSelectionViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B2EB656E29CE0B8A00C842C2 /* ModelSelectionViewController.xib */; };
+		B2EB657329CE0BFA00C842C2 /* ModelCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2EB657129CE0BFA00C842C2 /* ModelCollectionViewCell.swift */; };
+		B2EB657429CE0BFA00C842C2 /* ModelCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = B2EB657229CE0BFA00C842C2 /* ModelCollectionViewCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -52,10 +54,12 @@
 		B260944829C3D86D006F4AAA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B260944B29C3D86D006F4AAA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B260944D29C3D86D006F4AAA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		B260945529C3DB20006F4AAA /* CarSelectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarSelectionViewController.swift; sourceTree = "<group>"; };
-		B260945629C3DB20006F4AAA /* CarSelectionViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CarSelectionViewController.xib; sourceTree = "<group>"; };
-		B260945A29C3DF3D006F4AAA /* CarCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarCollectionViewCell.swift; sourceTree = "<group>"; };
-		B260945B29C3DF3D006F4AAA /* CarCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CarCollectionViewCell.xib; sourceTree = "<group>"; };
+		B2EB656929CE0A0E00C842C2 /* VersionDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VersionDetailViewController.swift; sourceTree = "<group>"; };
+		B2EB656A29CE0A0E00C842C2 /* VersionDetailViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = VersionDetailViewController.xib; sourceTree = "<group>"; };
+		B2EB656D29CE0B8A00C842C2 /* ModelSelectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelSelectionViewController.swift; sourceTree = "<group>"; };
+		B2EB656E29CE0B8A00C842C2 /* ModelSelectionViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ModelSelectionViewController.xib; sourceTree = "<group>"; };
+		B2EB657129CE0BFA00C842C2 /* ModelCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelCollectionViewCell.swift; sourceTree = "<group>"; };
+		B2EB657229CE0BFA00C842C2 /* ModelCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ModelCollectionViewCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -170,29 +174,39 @@
 		B260945329C3D8F9006F4AAA /* Modules */ = {
 			isa = PBXGroup;
 			children = (
+				B2EB656629CE096400C842C2 /* VersionDetail */,
 				B21ED21929C4E66200D28052 /* VersionSelection */,
-				B260945429C3DAFA006F4AAA /* CarSelection */,
+				B260945429C3DAFA006F4AAA /* ModelSelection */,
 			);
 			path = Modules;
 			sourceTree = "<group>";
 		};
-		B260945429C3DAFA006F4AAA /* CarSelection */ = {
+		B260945429C3DAFA006F4AAA /* ModelSelection */ = {
 			isa = PBXGroup;
 			children = (
-				B260945929C3DEF0006F4AAA /* CarCollectionViewCell */,
-				B260945529C3DB20006F4AAA /* CarSelectionViewController.swift */,
-				B260945629C3DB20006F4AAA /* CarSelectionViewController.xib */,
+				B260945929C3DEF0006F4AAA /* ModelCollectionViewCell */,
+				B2EB656D29CE0B8A00C842C2 /* ModelSelectionViewController.swift */,
+				B2EB656E29CE0B8A00C842C2 /* ModelSelectionViewController.xib */,
 			);
-			path = CarSelection;
+			path = ModelSelection;
 			sourceTree = "<group>";
 		};
-		B260945929C3DEF0006F4AAA /* CarCollectionViewCell */ = {
+		B260945929C3DEF0006F4AAA /* ModelCollectionViewCell */ = {
 			isa = PBXGroup;
 			children = (
-				B260945A29C3DF3D006F4AAA /* CarCollectionViewCell.swift */,
-				B260945B29C3DF3D006F4AAA /* CarCollectionViewCell.xib */,
+				B2EB657129CE0BFA00C842C2 /* ModelCollectionViewCell.swift */,
+				B2EB657229CE0BFA00C842C2 /* ModelCollectionViewCell.xib */,
 			);
-			path = CarCollectionViewCell;
+			path = ModelCollectionViewCell;
+			sourceTree = "<group>";
+		};
+		B2EB656629CE096400C842C2 /* VersionDetail */ = {
+			isa = PBXGroup;
+			children = (
+				B2EB656929CE0A0E00C842C2 /* VersionDetailViewController.swift */,
+				B2EB656A29CE0A0E00C842C2 /* VersionDetailViewController.xib */,
+			);
+			path = VersionDetail;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -254,10 +268,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				B260944C29C3D86D006F4AAA /* LaunchScreen.storyboard in Resources */,
+				B2EB657429CE0BFA00C842C2 /* ModelCollectionViewCell.xib in Resources */,
+				B2EB656C29CE0A0E00C842C2 /* VersionDetailViewController.xib in Resources */,
 				B21ED21D29C4E68500D28052 /* VersionSelectionViewController.xib in Resources */,
-				B260945829C3DB20006F4AAA /* CarSelectionViewController.xib in Resources */,
 				B260944929C3D86D006F4AAA /* Assets.xcassets in Resources */,
-				B260945D29C3DF3D006F4AAA /* CarCollectionViewCell.xib in Resources */,
+				B2EB657029CE0B8A00C842C2 /* ModelSelectionViewController.xib in Resources */,
 				B21ED22929C4F8FC00D28052 /* CarVersionTableViewCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -269,12 +284,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B260945729C3DB20006F4AAA /* CarSelectionViewController.swift in Sources */,
+				B2EB656F29CE0B8A00C842C2 /* ModelSelectionViewController.swift in Sources */,
 				B260944029C3D86B006F4AAA /* AppDelegate.swift in Sources */,
 				B23E6D6F29CCD3BF003F55AA /* AudiCarMotorization.swift in Sources */,
 				B21ED21C29C4E68500D28052 /* VersionSelectionViewController.swift in Sources */,
 				7FAF665A29C413930066EC4E /* AudiCarVersion.swift in Sources */,
+				B2EB656B29CE0A0E00C842C2 /* VersionDetailViewController.swift in Sources */,
 				B23E6D6B29CCCCE3003F55AA /* DoubleExtension.swift in Sources */,
+				B2EB657329CE0BFA00C842C2 /* ModelCollectionViewCell.swift in Sources */,
 				B260944229C3D86B006F4AAA /* SceneDelegate.swift in Sources */,
 				B21ED22829C4F8FC00D28052 /* CarVersionTableViewCell.swift in Sources */,
 				B21ED22429C4EB2000D28052 /* AudiImageCacheManager.swift in Sources */,
@@ -283,7 +300,6 @@
 				B23E6D7329CCD429003F55AA /* AudiAssistanceAndSafetySystem.swift in Sources */,
 				B23E6D6D29CCD3A4003F55AA /* AudiCarSubVersion.swift in Sources */,
 				B23E6D7129CCD406003F55AA /* AudiCarDimentions.swift in Sources */,
-				B260945C29C3DF3D006F4AAA /* CarCollectionViewCell.swift in Sources */,
 				7FAF665829C413300066EC4E /* AudiCarModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -2,7 +2,6 @@ import UIKit
 
 class VersionSelectionViewController: UIViewController {
     // MARK: - UIElements
-    @IBOutlet weak var coverImageView: UIImageView!
     @IBOutlet weak var modelVersionsTableView: UITableView!
     
     var versions: [CarVersionTableViewCellProtocol] = []
@@ -52,5 +51,7 @@ extension VersionSelectionViewController: UITableViewDataSource {
 
 // MARK: - UITableViewDelegate Management
 extension VersionSelectionViewController: UITableViewDelegate {
-    
+    func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        
+    }
 }

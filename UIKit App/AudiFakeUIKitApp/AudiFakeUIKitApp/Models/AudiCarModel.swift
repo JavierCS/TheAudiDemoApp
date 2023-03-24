@@ -9,7 +9,7 @@ class AudiCarModel: Decodable {
     var versions: [AudiCarVersion]?
 }
 
-extension AudiCarModel: CarCollectionViewCellProtocol {
+extension AudiCarModel: ModelCollectionViewCellProtocol {
     func getImageUrl() -> URL? {
         guard let url = imageUrl else { return nil }
         return URL(string: url)

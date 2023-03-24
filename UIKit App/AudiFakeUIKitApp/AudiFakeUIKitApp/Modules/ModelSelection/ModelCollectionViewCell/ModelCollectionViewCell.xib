@@ -9,30 +9,30 @@
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
         <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
-        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="gTV-IL-0wX" customClass="CarCollectionViewCell" customModule="AudiFakeUIKitApp" customModuleProvider="target">
-            <rect key="frame" x="0.0" y="0.0" width="308" height="305"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="gTV-IL-0wX" customClass="ModelCollectionViewCell" customModule="AudiFakeUIKitApp" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="242" height="240"/>
             <autoresizingMask key="autoresizingMask"/>
             <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
-                <rect key="frame" x="0.0" y="0.0" width="308" height="305"/>
+                <rect key="frame" x="0.0" y="0.0" width="242" height="240"/>
                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                 <subviews>
-                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="AudiLogo" translatesAutoresizingMaskIntoConstraints="NO" id="g7o-x1-md3">
-                        <rect key="frame" x="0.0" y="0.0" width="308" height="305"/>
+                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="AudiLogo" translatesAutoresizingMaskIntoConstraints="NO" id="ici-eU-b6A">
+                        <rect key="frame" x="0.0" y="0.0" width="242" height="240"/>
                     </imageView>
                 </subviews>
             </view>
             <viewLayoutGuide key="safeArea" id="ZTg-uK-7eu"/>
             <constraints>
-                <constraint firstItem="g7o-x1-md3" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" id="CaY-l6-AWu"/>
-                <constraint firstAttribute="trailing" secondItem="g7o-x1-md3" secondAttribute="trailing" id="FTA-Op-mOR"/>
-                <constraint firstItem="g7o-x1-md3" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="INa-WM-iYi"/>
-                <constraint firstAttribute="bottom" secondItem="g7o-x1-md3" secondAttribute="bottom" id="sVL-Di-X5F"/>
+                <constraint firstAttribute="trailing" secondItem="ici-eU-b6A" secondAttribute="trailing" id="8Yr-jt-D3q"/>
+                <constraint firstAttribute="bottom" secondItem="ici-eU-b6A" secondAttribute="bottom" id="D6r-St-DRI"/>
+                <constraint firstItem="ici-eU-b6A" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="ILW-NC-SMu"/>
+                <constraint firstItem="ici-eU-b6A" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" id="mAj-ZK-Ln7"/>
             </constraints>
-            <size key="customSize" width="308" height="305"/>
+            <size key="customSize" width="242" height="240"/>
             <connections>
-                <outlet property="carImageView" destination="g7o-x1-md3" id="1vF-Vt-XIz"/>
+                <outlet property="carImageView" destination="ici-eU-b6A" id="Y6D-R5-0ON"/>
             </connections>
-            <point key="canvasLocation" x="172.51908396946564" y="109.50704225352113"/>
+            <point key="canvasLocation" x="285.49618320610688" y="86.619718309859152"/>
         </collectionViewCell>
     </objects>
     <resources>
