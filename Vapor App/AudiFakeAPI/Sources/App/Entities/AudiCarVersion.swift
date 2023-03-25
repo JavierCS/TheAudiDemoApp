@@ -1,7 +1,7 @@
 import Foundation
 import Vapor
 
-struct AudiCarVersion: Content {
+final class AudiCarVersion: Content {
     var versionId: String?
     var versionName: String?
     var initialPrice: Double?

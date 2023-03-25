@@ -8,7 +8,7 @@
 import Foundation
 import Vapor
 
-struct AudiCarModel: Content {
+final class AudiCarModel: Content {
     var modelId: String?
     var modelName: String?
     var modelYear: Int?
@@ -27,11 +27,14 @@ struct AudiCarModel: Content {
     }
     
     func validateUrls(using app: Application) {
-        guard let serverUrl = app.getServerUrl(),
-              let modelId = modelId else { return }
-        
-        if imageUrl == nil {
-            print(app.getModelImageUrl(for: modelId))
+        guard let modelId = modelId else { return }
+        imageUrl = app.getModelImageUrl(for: modelId)?.absoluteString
+        guard let versions = versions else { return }
+        for version in versions {
+            if let versionId = version.versionId {
+                version.coverImageUrl = app.getVersionCoverImageUrl(for: modelId, inVersion: versionId)?.absoluteString
+                version.frontImageUrl = app.getVersionFrontImageUrl(for: modelId, inVersion: versionId)?.absoluteString
+            }
         }
     }
 }

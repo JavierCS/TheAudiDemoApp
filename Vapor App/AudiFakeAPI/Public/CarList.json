@@ -10,8 +10,8 @@
                 "versionId": "a1sb",
                 "versionName": "A1 Sportback",
                 "initialPrice": 514900.00,
-                "coverImageUrl": "https://www.dropbox.com/s/070i08nh0zsk4u6/a1_cover.jpg?dl=1",
-                "frontImageUrl": "https://www.dropbox.com/s/bkfftf7ga53fzui/a1_front.jpg?dl=1",
+                "coverImageUrl": null,
+                "frontImageUrl": null,
                 "stock": 10
             }
         ]
@@ -230,7 +230,7 @@
         "initialPrice": 634900.00,
         "versions": [
             {
-                "versionId": "q2s",
+                "versionId": "q2",
                 "versionName": "Q2",
                 "initialPrice": 634900.00,
                 "coverImageUrl": "https://www.dropbox.com/s/na2lu6mjlp17p0o/q2_cover.jpg?dl=1",
@@ -247,7 +247,7 @@
         "initialPrice": 759900.00,
         "versions": [
             {
-                "versionId": "q3s",
+                "versionId": "q3",
                 "versionName": "Q3",
                 "initialPrice": 759900.00,
                 "coverImageUrl": "https://www.dropbox.com/s/njxksiz8n6z79ix/q3_cover.jpg?dl=1",
@@ -321,7 +321,7 @@
         "initialPrice": 1524900.00,
         "versions": [
             {
-                "versionId": "q7s",
+                "versionId": "q7",
                 "versionName": "Q7",
                 "initialPrice": 1524900.00,
                 "coverImageUrl": "https://www.dropbox.com/s/r3vj55fo58svzo0/q7_cover.jpg?dl=1",
@@ -332,21 +332,21 @@
     },
     {
         "modelId": "q8",
-        "modelName": "Q8",
+        "modelName": "q8",
         "modelYear": 2023,
         "imageUrl": "https://www.dropbox.com/s/yvgohwxze59blrp/q8.png?dl=1",
         "initialPrice": 1604900.00,
         "versions": [
             {
-                "versionId": "q8s",
-                "versionName": "Q5",
+                "versionId": "q8",
+                "versionName": "Q8",
                 "initialPrice": 1604900.00,
                 "coverImageUrl": "https://www.dropbox.com/s/yhji66t3odw9yvp/q8_cover.jpg?dl=1",
                 "frontImageUrl": "https://www.dropbox.com/s/heyao6djaosuotn/q8_body_6.jpg?dl=1",
                 "stock": 50
             },
             {
-                "versionId": "rsq8s",
+                "versionId": "rsq8",
                 "versionName": "RSQ8",
                 "initialPrice": 2769900.00,
                 "coverImageUrl": "https://www.dropbox.com/s/au07x5p000iys40/rs_q8_cover.jpg?dl=1",
@@ -356,7 +356,7 @@
         ]
     },
     {
-        "modelId": "etron",
+        "modelId": "e-tron",
         "modelName": "e-tron",
         "modelYear": 2023,
         "imageUrl": "https://www.dropbox.com/s/xqny9cyoc9rhfop/e-tron.png?dl=1",
@@ -389,7 +389,7 @@
         ]
     },
     {
-        "modelId": "etrongt",
+        "modelId": "e-tron_gt",
         "modelName": "e-tron GT",
         "modelYear": 2023,
         "imageUrl": "https://www.dropbox.com/s/y593f961wj5v6u3/e-tron_GT.png?dl=1",
