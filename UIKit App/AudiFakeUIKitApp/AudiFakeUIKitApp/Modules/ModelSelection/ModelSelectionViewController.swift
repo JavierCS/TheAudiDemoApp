@@ -91,6 +91,7 @@ extension ModelSelectionViewController: UICollectionViewDelegateFlowLayout {
     func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
         guard let selectedCarVersions = cars[indexPath.row].versions else { return }
         let versionSelection = VersionSelectionViewController.fromNib(using: selectedCarVersions)
+        versionSelection.navigationItem.largeTitleDisplayMode = .always
         show(versionSelection, sender: nil)
     }
 

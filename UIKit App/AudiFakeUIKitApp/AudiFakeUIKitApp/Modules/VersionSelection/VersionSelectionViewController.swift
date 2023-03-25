@@ -1,6 +1,6 @@
 import UIKit
 
-class VersionSelectionViewController: UIViewController {
+class VersionSelectionViewController: MasterViewController {
     // MARK: - UIElements
     @IBOutlet weak var modelVersionsTableView: UITableView!
     
