@@ -10,8 +10,8 @@
                 "versionId": "a1sb",
                 "versionName": "A1 Sportback",
                 "initialPrice": 514900.00,
-                "coverImageUrl": null,
-                "frontImageUrl": null,
+                "coverImageUrl": "https://www.dropbox.com/s/070i08nh0zsk4u6/a1_cover.jpg?dl=1",
+                "frontImageUrl": "https://www.dropbox.com/s/bkfftf7ga53fzui/a1_front.jpg?dl=1",
                 "stock": 10
             }
         ]
